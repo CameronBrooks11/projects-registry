@@ -1,0 +1,102 @@
+# =====================================================================
+# PROJECT TAXONOMY
+# Defines controlled vocabularies and classification hierarchies
+# =====================================================================
+
+version: 1.1
+updated: 2025-10-07
+
+# ---------------------------------------------------------------------
+# Primary Type — what the project fundamentally *is* (pick 1)
+# ---------------------------------------------------------------------
+types:
+  - system # Integrated platform delivering end-to-end function
+  - machine # Standalone physical device with defined operation
+  - subsystem # Major functional block within a system/machine
+  - module # Replaceable unit providing a bounded function
+  - component # Contained hardware assembly or reusable software library/package/SDK
+  - part # Individual mechanical/electronic piece or small assembly
+  - material # Raw/processed material, chemical, or biological feedstock
+
+# ---------------------------------------------------------------------
+# Implementation Layer — where the main technical work resides (multi)
+# ---------------------------------------------------------------------
+implementation:
+  - hardware # Mechanical/electromechanical/PCB assemblies and wiring
+  - firmware # Embedded code tightly bound to hardware (MCU/SoC)
+  - software # Applications, services, libraries, CLIs, tooling
+
+# ---------------------------------------------------------------------
+# Artifact Type — the primary form of deliverables (multi)
+# ---------------------------------------------------------------------
+artifact:
+  - design # CAD/parametric models, schematics, footprints, enclosure models
+  - specification # Requirements, protocols, interfaces, standards, ICDs
+  - analysis # Models, simulations, experiments, data workflows, notebooks
+  - test # Test plans, fixtures, datasets, validation reports
+  - documentation # Guides, references, templates, playbooks, SOPs
+  - dataset # Curated data released as a first-class artifact
+
+# ---------------------------------------------------------------------
+# Target Platform — where it runs or is deployed/operated (multi)
+# Ordered from smallest/closest-to-hardware to most distributed.
+# ---------------------------------------------------------------------
+target:
+  - mcu # Microcontrollers (e.g., STM32, RP2040, ESP32, AVR)
+  - fpga # Reconfigurable logic targets
+  - sbc # Single-board computers (e.g., Raspberry Pi, Jetson)
+  - pc # Desktop/workstation laptops (on-device or dev host)
+  - server # On-prem server or VM
+  - cloud # Managed cloud services (IaaS/PaaS/FaaS)
+  - browser # Web browser runtime
+  - mobile # iOS/Android devices
+  - network # Distributed/multi-node systems (edge fleets, clusters)
+
+# ---------------------------------------------------------------------
+# Rules
+# ---------------------------------------------------------------------
+rules:
+  type:
+    cardinality: exactly-one
+    required: true
+  implementation:
+    cardinality: zero-or-more
+    recommended: true
+  artifact:
+    cardinality: zero-or-more
+    recommended: true
+  target:
+    cardinality: zero-or-more
+    recommended: true
+
+# ---------------------------------------------------------------------
+# Maturity Levels
+# ---------------------------------------------------------------------
+maturity:
+  - concept # Defined idea or roadmap
+  - prototype # Functioning early implementation
+  - beta # Tested but not production-ready
+  - production # Stable and in active use
+  - deprecated # No longer recommended; superseded or retired
+
+# ---------------------------------------------------------------------
+# Status
+# ---------------------------------------------------------------------
+status:
+  - active # In current development or productive maintenance
+  - maintenance # Stable, bugfixes only
+  - paused # Temporarily inactive
+  - archived # Permanently inactive or replaced
+
+# ---------------------------------------------------------------------
+# Freeform Tags — user-defined keywords for additional classification
+# ---------------------------------------------------------------------
+freeform:
+  auto:
+    - topic # Application topic, domain, industry, or field of use
+    - license # Licensing model(s) used
+    - language # Primary programming language(s) used
+  manual:
+    - technology # Key technologies, techniques, or methods used
+    - os # Target operating system(s)
+    - architecture # Key hardware platforms or architectures supported
