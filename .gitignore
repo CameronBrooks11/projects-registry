@@ -210,14 +210,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Ignore local build caches
+# VitePress build artifacts and caches
 .vitepress/cache/
+.vitepress/dist/
 site/.vitepress/.temp/
 site/.vitepress/cache/
-
-# Ignore site output directory (built HTML)
 site/.vitepress/dist/
-
-# KEEP dataset artifacts used for site build
-!dist/
-!dist/index.json
