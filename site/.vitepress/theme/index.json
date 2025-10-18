@@ -1,0 +1,190 @@
+{
+  "generated_at": "2025-10-18T08:49:56Z",
+  "counts": {
+    "projects": 3
+  },
+  "projects": [
+    {
+      "id": "ilox",
+      "name": "iLOX",
+      "slug": "ilox",
+      "type": "component",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "design",
+        "documentation"
+      ],
+      "target": [
+        "pc"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/iLOX"
+        }
+      ],
+      "links": {
+        "docs": "https://github.com/CameronBrooks11/iLOX#readme",
+        "issues": "https://github.com/CameronBrooks11/iLOX/issues"
+      },
+      "tags": [
+        "openscad",
+        "library",
+        "tessellation",
+        "parametric"
+      ],
+      "notes": "OpenSCAD library for tessellated interlocking surface geometry.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "l298n-arduino",
+      "name": "L298N Arduino Library",
+      "slug": "l298n-arduino",
+      "type": "component",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "documentation"
+      ],
+      "target": [
+        "mcu"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/L298N_Arduino"
+        }
+      ],
+      "links": {
+        "docs": "https://github.com/CameronBrooks11/L298N_Arduino#readme",
+        "issues": "https://github.com/CameronBrooks11/L298N_Arduino/issues"
+      },
+      "tags": [
+        "arduino",
+        "motor-driver",
+        "dc-motor",
+        "h-bridge",
+        "l298n",
+        "c++"
+      ],
+      "notes": "Arduino library for DC motors and steppers using L298N; GPL-3.0.  :contentReference[oaicite:0]{index=0}",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "lmd18200-arduino",
+      "name": "LMD18200 Arduino Library",
+      "slug": "lmd18200-arduino",
+      "type": "component",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "documentation"
+      ],
+      "target": [
+        "mcu"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/LMD18200_Arduino"
+        }
+      ],
+      "links": {
+        "docs": "https://github.com/CameronBrooks11/LMD18200_Arduino#readme",
+        "issues": "https://github.com/CameronBrooks11/LMD18200_Arduino/issues"
+      },
+      "tags": [
+        "arduino",
+        "motor-driver",
+        "dc-motor",
+        "h-bridge",
+        "lmd18200",
+        "c++"
+      ],
+      "notes": "Arduino library for TI LMD18200 with braking and sensing; MIT licensed.  :contentReference[oaicite:1]{index=1}",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    }
+  ],
+  "taxonomy": {
+    "types": [
+      "system",
+      "machine",
+      "subsystem",
+      "module",
+      "component",
+      "part",
+      "material"
+    ],
+    "implementation": [
+      "hardware",
+      "firmware",
+      "software"
+    ],
+    "artifact": [
+      "design",
+      "specification",
+      "analysis",
+      "test",
+      "documentation",
+      "dataset"
+    ],
+    "target": [
+      "mcu",
+      "fpga",
+      "sbc",
+      "pc",
+      "server",
+      "cloud",
+      "browser",
+      "mobile",
+      "network"
+    ],
+    "maturity": [
+      "concept",
+      "prototype",
+      "beta",
+      "production",
+      "deprecated"
+    ],
+    "status": [
+      "active",
+      "maintenance",
+      "paused",
+      "archived"
+    ]
+  }
+}

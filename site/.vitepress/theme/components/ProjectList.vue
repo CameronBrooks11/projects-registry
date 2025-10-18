@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import data from '../../../../dist/index.json'
+import data from '../index.json'
 import FilterBar from './FilterBar.vue'
 
 type Project = {

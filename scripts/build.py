@@ -4,13 +4,15 @@ import json
 from pathlib import Path
 import sys
 import yaml
-from datetime import datetime
+from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECTS_DIR = ROOT / "data" / "projects"
 TAX_PATH = ROOT / "data" / "taxonomy.yml"
 DIST_DIR = ROOT / "dist"
 INDEX_PATH = DIST_DIR / "index.json"
+THEME_DIR = ROOT / "site" / ".vitepress" / "theme"
+THEME_INDEX_PATH = THEME_DIR / "index.json"
 
 
 def load_yaml(path: Path):
@@ -76,8 +78,9 @@ def main():
         rows.append(rec)
 
     DIST_DIR.mkdir(parents=True, exist_ok=True)
+    THEME_DIR.mkdir(parents=True, exist_ok=True)
     payload = {
-        "generated_at": datetime.utcnow().isoformat(timespec="seconds") + "Z",
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
         "counts": {"projects": len(rows)},
         "projects": rows,
         "taxonomy": {
@@ -87,8 +90,12 @@ def main():
             in ("types", "implementation", "artifact", "target", "maturity", "status")
         },
     }
+    # Write to dist/ (for validation/debugging)
     INDEX_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    # Write to theme/ (for VitePress component)
+    THEME_INDEX_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")
     print(f"Wrote {INDEX_PATH} ({len(rows)} projects)")
+    print(f"Wrote {THEME_INDEX_PATH} ({len(rows)} projects)")
 
 
 if __name__ == "__main__":
