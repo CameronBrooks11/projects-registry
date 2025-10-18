@@ -1,0 +1,16 @@
+id: ilox
+name: iLOX
+type: component
+implementation: [software]
+artifact: [design, documentation]
+target: [pc]
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/iLOX
+links:
+  docs: https://github.com/CameronBrooks11/iLOX#readme
+  issues: https://github.com/CameronBrooks11/iLOX/issues
+tags: [openscad, library, tessellation, parametric]
+notes: OpenSCAD library for tessellated interlocking surface geometry.

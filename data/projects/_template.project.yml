@@ -1,0 +1,17 @@
+id: your-id-kebab
+name: Your Project Name
+type: system # one of: system|machine|subsystem|module|component|part|material
+implementation: [] # e.g., [hardware, firmware, software]
+artifact: [] # e.g., [design, documentation]
+target: [] # e.g., [mcu, sbc, pc, server, cloud, browser, mobile, network, fpga]
+maturity: prototype # one of: concept|prototype|beta|production|deprecated
+status: active # one of: active|maintenance|paused|archived
+repos:
+  - host: github
+    url: https://github.com/org/repo
+links:
+  docs: "" # optional URL
+  issues: "" # optional URL
+  site: "" # optional URL
+tags: [] # free-form
+notes: "" # short free-form text

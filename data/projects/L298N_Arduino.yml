@@ -1,0 +1,16 @@
+id: l298n-arduino
+name: L298N Arduino Library
+type: component
+implementation: [software]
+artifact: [documentation]
+target: [mcu]
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/L298N_Arduino
+links:
+  docs: https://github.com/CameronBrooks11/L298N_Arduino#readme
+  issues: https://github.com/CameronBrooks11/L298N_Arduino/issues
+tags: [arduino, motor-driver, dc-motor, h-bridge, l298n, c++]
+notes: Arduino library for DC motors and steppers using L298N; GPL-3.0.  :contentReference[oaicite:0]{index=0}

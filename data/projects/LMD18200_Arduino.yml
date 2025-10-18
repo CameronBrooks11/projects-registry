@@ -1,0 +1,16 @@
+id: lmd18200-arduino
+name: LMD18200 Arduino Library
+type: component
+implementation: [software]
+artifact: [documentation]
+target: [mcu]
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/LMD18200_Arduino
+links:
+  docs: https://github.com/CameronBrooks11/LMD18200_Arduino#readme
+  issues: https://github.com/CameronBrooks11/LMD18200_Arduino/issues
+tags: [arduino, motor-driver, dc-motor, h-bridge, lmd18200, c++]
+notes: Arduino library for TI LMD18200 with braking and sensing; MIT licensed.  :contentReference[oaicite:1]{index=1}

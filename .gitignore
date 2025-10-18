@@ -151,9 +151,6 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
-
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -217,3 +214,4 @@ package-lock.json
 .vitepress/dist/
 site/.vitepress/dist/
 site/.vitepress/.temp/
+site/.vitepress/cache

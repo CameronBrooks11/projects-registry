@@ -1,0 +1,5 @@
+# Projects
+
+<ClientOnly>
+  <ProjectList />
+</ClientOnly>

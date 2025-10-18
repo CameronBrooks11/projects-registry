@@ -1,1 +1,150 @@
-{}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "type"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "system",
+        "machine",
+        "subsystem",
+        "module",
+        "component",
+        "part",
+        "material"
+      ]
+    },
+    "implementation": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "hardware",
+          "firmware",
+          "software"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "artifact": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "design",
+          "specification",
+          "analysis",
+          "test",
+          "documentation",
+          "dataset"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "target": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "mcu",
+          "fpga",
+          "sbc",
+          "pc",
+          "server",
+          "cloud",
+          "browser",
+          "mobile",
+          "network"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "maturity": {
+      "type": "string",
+      "enum": [
+        "concept",
+        "prototype",
+        "beta",
+        "production",
+        "deprecated"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "maintenance",
+        "paused",
+        "archived"
+      ]
+    },
+    "repos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "host",
+          "url"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "host": {
+            "type": "string",
+            "enum": [
+              "github",
+              "gitlab",
+              "other"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "docs": {
+          "type": "string",
+          "format": "uri"
+        },
+        "issues": {
+          "type": "string",
+          "format": "uri"
+        },
+        "site": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
