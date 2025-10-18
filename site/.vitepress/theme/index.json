@@ -82,7 +82,7 @@
         "l298n",
         "c++"
       ],
-      "notes": "Arduino library for DC motors and steppers using L298N; GPL-3.0.  :contentReference[oaicite:0]{index=0}",
+      "notes": "Arduino library for DC motors and steppers using L298N; GPL-3.0.",
       "derived": {
         "stars": null,
         "forks": null,
@@ -127,7 +127,7 @@
         "lmd18200",
         "c++"
       ],
-      "notes": "Arduino library for TI LMD18200 with braking and sensing; MIT licensed.  :contentReference[oaicite:1]{index=1}",
+      "notes": "Arduino library for TI LMD18200 with braking and sensing; MIT licensed.",
       "derived": {
         "stars": null,
         "forks": null,

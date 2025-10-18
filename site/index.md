@@ -1,5 +1,3 @@
-# Projects
-
 <ClientOnly>
   <ProjectList />
 </ClientOnly>
