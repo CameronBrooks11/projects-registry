@@ -209,9 +209,15 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-package-lock.json
+
+# Ignore local build caches
 .vitepress/cache/
-.vitepress/dist/
-site/.vitepress/dist/
 site/.vitepress/.temp/
-site/.vitepress/cache
+site/.vitepress/cache/
+
+# Ignore site output directory (built HTML)
+site/.vitepress/dist/
+
+# KEEP dataset artifacts used for site build
+!dist/
+!dist/index.json
