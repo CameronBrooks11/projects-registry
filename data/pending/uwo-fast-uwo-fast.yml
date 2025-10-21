@@ -1,0 +1,19 @@
+id: uwo-fast-uwo-fast
+name: uwo-fast
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/uwo-fast
+links:
+  issues: https://github.com/uwo-fast/uwo-fast/issues
+  docs: ''
+tags: []
+notes: 'Welcome to the UWO-FAST General Resources Repository. This repository is a
+  centralized hub for various resources, guidelines, and tools to support our research
+  group. Below is an overview of the contents:'
