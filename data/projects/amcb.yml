@@ -6,7 +6,7 @@ implementation:
 artifact:
   - design
   - documentation
-target: pc
+target: [pc]
 maturity: prototype
 status: active
 repos:
