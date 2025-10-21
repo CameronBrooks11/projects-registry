@@ -4,10 +4,9 @@ type: component
 implementation:
   - software
 artifact:
-  - library
+  - design
 target:
-  - CAD
-  - OpenSCAD
+  - pc
 maturity: prototype
 status: active
 repos:

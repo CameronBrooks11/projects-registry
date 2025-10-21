@@ -1,10 +1,10 @@
 id: thetiny
 name: TheTiny
-type: software
+type: system
 implementation:
   - software
 artifact:
-  - tool
+  - design
 target:
   - pc
 maturity: prototype

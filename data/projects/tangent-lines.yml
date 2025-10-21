@@ -1,13 +1,13 @@
 id: tangent-lines
 name: Tangent-Lines
-type: tool
+type: component
 implementation:
   - software
 artifact:
-  - model
-  - script
+  - design
+  - analysis
 target:
-  - OpenSCAD
+  - pc
 maturity: prototype
 status: active
 repos:

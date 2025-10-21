@@ -1,13 +1,12 @@
 id: snowflakefiniy
 name: SnowflakeFiniy
-type: tool
+type: component
 implementation:
   - software
 artifact:
   - design
-  - 3d-print-model
 target:
-  - 3d-printer
+  - pc
 maturity: prototype
 status: active
 repos:

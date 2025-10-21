@@ -7,7 +7,7 @@ artifact:
   - dataset
   - documentation
 target:
-  - web
+  - browser
 maturity: prototype
 status: active
 repos:
