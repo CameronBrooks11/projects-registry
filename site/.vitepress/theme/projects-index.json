@@ -1,0 +1,613 @@
+{
+  "generated_at": "2025-10-21T13:52:21Z",
+  "count": 13,
+  "projects": [
+    {
+      "id": "amcb",
+      "name": "Additive Manufacture Circuit Base (AMCB)",
+      "slug": "amcb",
+      "type": "component",
+      "implementation": [
+        "hardware"
+      ],
+      "artifact": [
+        "design",
+        "documentation"
+      ],
+      "target": [],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/amcb"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/uwo-fast/amcb/issues",
+        "docs": "https://www.mdpi.com/2411-5134/8/2/61"
+      },
+      "tags": [
+        "3d-printing",
+        "breakout-board",
+        "soic-to-dip",
+        "openscad"
+      ],
+      "notes": "3D-printed, solderless breakout adapter platform enabling SOIC-to-DIP prototyping at low cost.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "ilox",
+      "name": "iLOX",
+      "slug": "ilox",
+      "type": "component",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "design",
+        "documentation"
+      ],
+      "target": [
+        "pc"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/iLOX"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/CameronBrooks11/iLOX/issues"
+      },
+      "tags": [
+        "openscad",
+        "library",
+        "tessellation",
+        "parametric"
+      ],
+      "notes": "OpenSCAD library for tessellated interlocking surface geometry.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "l298n-arduino",
+      "name": "L298N Arduino Library",
+      "slug": "l298n-arduino",
+      "type": "component",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "documentation"
+      ],
+      "target": [
+        "mcu"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/L298N_Arduino"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/CameronBrooks11/L298N_Arduino/issues"
+      },
+      "tags": [
+        "arduino",
+        "motor-driver",
+        "dc-motor",
+        "h-bridge",
+        "l298n",
+        "c++"
+      ],
+      "notes": "Arduino library for DC motors and steppers using L298N; GPL-3.0.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "lmd18200-arduino",
+      "name": "LMD18200 Arduino Library",
+      "slug": "lmd18200-arduino",
+      "type": "component",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "documentation"
+      ],
+      "target": [
+        "mcu"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/LMD18200_Arduino"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/CameronBrooks11/LMD18200_Arduino/issues"
+      },
+      "tags": [
+        "arduino",
+        "motor-driver",
+        "dc-motor",
+        "h-bridge",
+        "lmd18200",
+        "c++"
+      ],
+      "notes": "Arduino library for TI LMD18200 with braking and sensing; MIT licensed.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "monospace-web-jekyll-theme",
+      "name": "monospace-web-jekyll-theme",
+      "slug": "monospace-web-jekyll-theme",
+      "type": "component",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "documentation"
+      ],
+      "target": [
+        "browser"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/monospace-web-jekyll-theme"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/CameronBrooks11/monospace-web-jekyll-theme/issues",
+        "docs": "https://cameronbrooks11.github.io/monospace-web-jekyll-theme/"
+      },
+      "tags": [
+        "jekyll",
+        "theme",
+        "monospace",
+        "css"
+      ],
+      "notes": "Minimal Jekyll theme that vendors the monospace-web CSS/JS package.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "monospace-web-theme",
+      "name": "monospace-web-theme",
+      "slug": "monospace-web-theme",
+      "type": "component",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "documentation"
+      ],
+      "target": [
+        "browser"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/monospace-web-theme"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/CameronBrooks11/monospace-web-theme/issues",
+        "docs": "https://cameronbrooks11.github.io/monospace-web-theme/"
+      },
+      "tags": [
+        "css",
+        "javascript",
+        "monospace",
+        "layout-grid"
+      ],
+      "notes": "Pure CSS+JS theme enforcing a character-aligned grid with responsive monospace typography.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "projects-registry",
+      "name": "Projects Registry",
+      "slug": "projects-registry",
+      "type": "system",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "dataset",
+        "documentation"
+      ],
+      "target": [
+        "browser"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/projects-registry"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/CameronBrooks11/projects-registry/issues",
+        "docs": "https://cameronbrooks11.github.io/projects-registry/"
+      },
+      "tags": [
+        "registry",
+        "vitepress",
+        "automation",
+        "yaml"
+      ],
+      "notes": "(This) data-driven registry of open projects with automated taxonomy and site generation.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "snowflakefiniy",
+      "name": "SnowflakeFiniy",
+      "slug": "snowflakefiniy",
+      "type": "component",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "design"
+      ],
+      "target": [
+        "pc"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/snowflakefiniy"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/CameronBrooks11/snowflakefiniy/issues",
+        "docs": ""
+      },
+      "tags": [
+        "OpenSCAD",
+        "3d-printing",
+        "snowflake",
+        "ornament",
+        "STL"
+      ],
+      "notes": "Easy-to-print snowflake holiday decorations with holes for hanging; allows infinite variations by seed/size for 3D printing.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "tangent-lines",
+      "name": "Tangent-Lines",
+      "slug": "tangent-lines",
+      "type": "component",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "design",
+        "analysis"
+      ],
+      "target": [
+        "pc"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/tangent-lines"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/CameronBrooks11/tangent-lines/issues"
+      },
+      "tags": [
+        "OpenSCAD",
+        "geometry",
+        "circle",
+        "CAD"
+      ],
+      "notes": "OpenSCAD script to calculate and draw tangent lines to a circle or between circles; useful for parametric CAD geometry and design work\u2010flow.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "tessella",
+      "name": "Tessella",
+      "slug": "tessella",
+      "type": "component",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "design"
+      ],
+      "target": [
+        "pc"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/tessella"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/CameronBrooks11/tessella/issues"
+      },
+      "tags": [
+        "OpenSCAD",
+        "tessellation",
+        "polygon",
+        "tiling"
+      ],
+      "notes": "OpenSCAD library building regular and semi-regular polygonal tessellations; facilitates intricate tiling pattern generation.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "the-monospace-web",
+      "name": "The Monospace Web",
+      "slug": "the-monospace-web",
+      "type": "system",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "documentation"
+      ],
+      "target": [
+        "browser"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/the-monospace-web"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/CameronBrooks11/the-monospace-web/issues",
+        "docs": "https://cameronbrooks11.github.io/the-monospace-web/"
+      },
+      "tags": [
+        "monospace",
+        "pandoc",
+        "static-site",
+        "makefile",
+        "nix"
+      ],
+      "notes": "Minimal, Markdown-driven static site using a character-aligned grid and the monospace-web theme.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "thetiny",
+      "name": "TheTiny",
+      "slug": "thetiny",
+      "type": "system",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "design"
+      ],
+      "target": [
+        "pc"
+      ],
+      "maturity": "prototype",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/TheTiny"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/CameronBrooks11/TheTiny/issues"
+      },
+      "tags": [
+        "utility",
+        "experimental"
+      ],
+      "notes": "Lightweight software utility \u201cTheTiny\u201d. Early-stage prototype tool.",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    },
+    {
+      "id": "uwo-fast-gh-pages",
+      "name": "FAST Research Group Website",
+      "slug": "uwo-fast-gh-pages",
+      "type": "system",
+      "implementation": [
+        "software"
+      ],
+      "artifact": [
+        "documentation"
+      ],
+      "target": [
+        "browser"
+      ],
+      "maturity": "production",
+      "status": "active",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/uwo-fast.github.io"
+        }
+      ],
+      "links": {
+        "issues": "https://github.com/uwo-fast/uwo-fast.github.io/issues",
+        "docs": "https://uwo-fast.github.io"
+      },
+      "tags": [
+        "ux",
+        "website",
+        "jekyll",
+        "open-source"
+      ],
+      "notes": "Official website for the FAST Research Group (Western University) built using Jekyll and GitHub Pages; serves as hub for open-source projects, documentation and community. :contentReference[oaicite:1]{index=1}",
+      "derived": {
+        "stars": null,
+        "forks": null,
+        "open_issues": null,
+        "last_commit": null,
+        "primary_language": null,
+        "topics": [],
+        "activity_score": null
+      }
+    }
+  ],
+  "taxonomy": {
+    "types": [
+      "system",
+      "machine",
+      "subsystem",
+      "module",
+      "component",
+      "part",
+      "material"
+    ],
+    "implementation": [
+      "hardware",
+      "firmware",
+      "software"
+    ],
+    "artifact": [
+      "design",
+      "specification",
+      "analysis",
+      "test",
+      "documentation",
+      "dataset"
+    ],
+    "target": [
+      "mcu",
+      "fpga",
+      "sbc",
+      "pc",
+      "server",
+      "cloud",
+      "browser",
+      "mobile",
+      "network"
+    ],
+    "maturity": [
+      "concept",
+      "prototype",
+      "beta",
+      "production",
+      "deprecated"
+    ],
+    "status": [
+      "active",
+      "maintenance",
+      "paused",
+      "archived"
+    ]
+  }
+}

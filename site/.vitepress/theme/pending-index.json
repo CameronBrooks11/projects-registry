@@ -1,0 +1,1315 @@
+{
+  "generated_at": "2025-10-21T13:52:21Z",
+  "count": 119,
+  "pending": [
+    {
+      "id": "arm-asm-axiomatic-assemblage",
+      "name": "arm-asm-axiomatic-assemblage",
+      "notes": "Inspired from my crammed creation of Magic Microcontrollers Meets Massive Mindmap (ECE 3375B), a beautiful creation originally curated with help of fellow students in ECE 3375B at Western University.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/arm-asm-axiomatic-assemblage"
+        }
+      ]
+    },
+    {
+      "id": "awesome-computational-design",
+      "name": "awesome-computational-design",
+      "notes": "Awesome open source computational design tools.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/awesome-computational-design"
+        }
+      ]
+    },
+    {
+      "id": "b123d-template-test",
+      "name": "b123d-template-test",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/b123d-template-test"
+        }
+      ]
+    },
+    {
+      "id": "batch",
+      "name": "BATCH",
+      "notes": "Bridging Architecture for Task Control & Handling",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/BATCH"
+        }
+      ]
+    },
+    {
+      "id": "battpackscad",
+      "name": "BattPackSCAD",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/BattPackSCAD"
+        }
+      ]
+    },
+    {
+      "id": "bayonet-lock-scad",
+      "name": "Bayonet-Lock-SCAD",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/Bayonet-Lock-SCAD"
+        }
+      ]
+    },
+    {
+      "id": "bdc-motor-scad",
+      "name": "bdc-motor-scad",
+      "notes": "OpenSCAD library for modeling brushed DC motors with parameters.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/bdc-motor-scad"
+        }
+      ]
+    },
+    {
+      "id": "biropette",
+      "name": "biropette",
+      "notes": "Open-source, parametric, 3D-printable micropipette derived from the OpenLabware Biropette for accurate, low-cost liquid handling.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/biropette"
+        }
+      ]
+    },
+    {
+      "id": "bloomscad",
+      "name": "BloomSCAD",
+      "notes": "Flowers and blooming structures in OpenSCAD.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/BloomSCAD"
+        }
+      ]
+    },
+    {
+      "id": "blue-raven-cli",
+      "name": "blue-raven-cli",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/blue-raven-cli"
+        }
+      ]
+    },
+    {
+      "id": "bread-infra",
+      "name": "bread-infra",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/bread-infra"
+        }
+      ]
+    },
+    {
+      "id": "breads",
+      "name": "BREADS",
+      "notes": "Open Source Framework for a Broadly Expandable and Reconfigurable Data Acquisition and Automation Device (BREAD)",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/BREADS"
+        }
+      ]
+    },
+    {
+      "id": "breakoutpack",
+      "name": "BreakoutPack",
+      "notes": "BreakoutPack is an open-source collection of breakout boards for ICs, connectors, sensors, and other components, designed in KiCad to support easy integration and rapid electronics development.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/BreakoutPack"
+        }
+      ]
+    },
+    {
+      "id": "build123d-template",
+      "name": "build123d-template",
+      "notes": "Cookiecutter template to quickly bootstrap build123d CAD projects with modern Python packaging, CI workflows, and boilerplate code.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/build123d-template"
+        }
+      ]
+    },
+    {
+      "id": "cameronbrooks-net",
+      "name": "cameronbrooks-net",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/cameronbrooks-net"
+        }
+      ]
+    },
+    {
+      "id": "cameronbrooks11-github-io",
+      "name": "cameronbrooks11.github.io",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/cameronbrooks11.github.io"
+        }
+      ]
+    },
+    {
+      "id": "cameronbrooks11-posts",
+      "name": "cameronbrooks11_posts",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/cameronbrooks11_posts"
+        }
+      ]
+    },
+    {
+      "id": "cameronbrooks11",
+      "name": "CameronBrooks11",
+      "notes": "My personal repository.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/CameronBrooks11"
+        }
+      ]
+    },
+    {
+      "id": "camscortex",
+      "name": "camscortex",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/camscortex"
+        }
+      ]
+    },
+    {
+      "id": "can-nano-shield-fieldbus",
+      "name": "can-nano-shield-fieldbus",
+      "notes": "A compact Arduino Nano shield with MCP2515 & TJA1051/3 for easy CAN bus integration, equipped with an RJ45 connector and PoL module to provide field power. Work-in-progress.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/can-nano-shield-fieldbus"
+        }
+      ]
+    },
+    {
+      "id": "can-nano-shield",
+      "name": "can-nano-shield",
+      "notes": "A compact Arduino Nano shield with MCP2515 & TJA1051/3 for easy CAN bus integration. Work-in-progress.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/can-nano-shield"
+        }
+      ]
+    },
+    {
+      "id": "chemscad",
+      "name": "ChemSCAD",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/ChemSCAD"
+        }
+      ]
+    },
+    {
+      "id": "christmasnameornament",
+      "name": "ChristmasNameOrnament",
+      "notes": "Customizable Christmas ornament generator with options for text, fonts, snowflake designs, and multi-color 3D printing.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/ChristmasNameOrnament"
+        }
+      ]
+    },
+    {
+      "id": "cnc-longmill",
+      "name": "cnc-longmill",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/cnc-longmill"
+        }
+      ]
+    },
+    {
+      "id": "crumbs",
+      "name": "CRUMBS",
+      "notes": "Communications Router and Unified Message Broker System (CRUMBS) supports the SPREAD firmware for BREAD.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/CRUMBS"
+        }
+      ]
+    },
+    {
+      "id": "dcmotorservo",
+      "name": "DCMotorServo",
+      "notes": "An Arduino Library for controlling DC motors with rotary encoders.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/DCMotorServo"
+        }
+      ]
+    },
+    {
+      "id": "desktop-sheet-press",
+      "name": "desktop-sheet-press",
+      "notes": "Open-source sheet press for recycling plastic waste into flat sheets, designed for sustainability and adaptability.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/desktop-sheet-press"
+        }
+      ]
+    },
+    {
+      "id": "devboarddepot",
+      "name": "DevBoardDepot",
+      "notes": "DevBoardDepot is an open-source collection of MCU development boards and kits, designed in KiCad for streamlined embedded development, testing, and prototyping.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/DevBoardDepot"
+        }
+      ]
+    },
+    {
+      "id": "din168-thread-scad",
+      "name": "din168-thread-scad",
+      "notes": "DIN168 standard threads in OpenSCAD. Used in GL-xx series laboratory glassware.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/din168-thread-scad"
+        }
+      ]
+    },
+    {
+      "id": "draftscad",
+      "name": "DraftSCAD",
+      "notes": "An OpenSCAD library for creating detailed, dimensioned engineering drawings, featuring modules for lines, dimensions, hole centers, leader lines, and customizable title blocks.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/DraftSCAD"
+        }
+      ]
+    },
+    {
+      "id": "echargescad",
+      "name": "eChargeSCAD",
+      "notes": "OpenSCAD script for the calculation and generation of ejection charges",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/eChargeSCAD"
+        }
+      ]
+    },
+    {
+      "id": "envsafetylogger",
+      "name": "EnvSafetyLogger",
+      "notes": "An environmental monitoring system for industrial safety, featuring multi-gas sensors, temperature, humidity, data logging, and alerts.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/EnvSafetyLogger"
+        }
+      ]
+    },
+    {
+      "id": "ergonomic-handle",
+      "name": "ergonomic-handle",
+      "notes": "This is an OpenSCAD library to generate an ergonomic handle that distributes hand contact pressure as evenly as possible.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/ergonomic-handle"
+        }
+      ]
+    },
+    {
+      "id": "fabricatus-astra",
+      "name": "Fabricatus-Astra",
+      "notes": "Fully computationally engineering and additively manufactured high-powered sounding rocket.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/Fabricatus-Astra"
+        }
+      ]
+    },
+    {
+      "id": "feastorg-github-io",
+      "name": "FEASTorg.github.io",
+      "notes": "Our main organization site to rule them all!",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/FEASTorg.github.io"
+        }
+      ]
+    },
+    {
+      "id": "feastorg-github",
+      "name": ".github",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/.github"
+        }
+      ]
+    },
+    {
+      "id": "flowcell-manifold",
+      "name": "flowcell-manifold",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/flowcell-manifold"
+        }
+      ]
+    },
+    {
+      "id": "freeboard",
+      "name": "freeboard",
+      "notes": "This ain\u2019t your grandfather\u2019s Freeboard! This fork of the damn-sexy, open source real-time dashboard builder for IOT and other web mashups now adds MongoDB persistence, a GraphQL backend, Docker\u202fCompose, Vue\u202f3, CORS proxy, monorepo support, pre\u2011commit hooks, and CSS variables.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/freeboard"
+        }
+      ]
+    },
+    {
+      "id": "froots",
+      "name": "FROOTS",
+      "notes": "Firmware for Resilient, (Function-)Oriented Operation of Things Specification.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/FROOTS"
+        }
+      ]
+    },
+    {
+      "id": "geodesic-dome",
+      "name": "geodesic-dome",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/geodesic-dome"
+        }
+      ]
+    },
+    {
+      "id": "geodesic-polyhedron",
+      "name": "geodesic-polyhedron",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/geodesic-polyhedron"
+        }
+      ]
+    },
+    {
+      "id": "geogrow",
+      "name": "GeoGrow",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/GeoGrow"
+        }
+      ]
+    },
+    {
+      "id": "google-sheets-tasks-sync",
+      "name": "Google-Sheets-Tasks-Sync",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/Google-Sheets-Tasks-Sync"
+        }
+      ]
+    },
+    {
+      "id": "hangprinter-v4",
+      "name": "hangprinter-v4",
+      "notes": "The Hangprinter v4 is a an open-source RepRap 3D printer with a minimalist design. It utilizes a tethered printing head suspended on cables, allowing for mid-air printing without the constraints of a traditional build volume.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/hangprinter-v4"
+        }
+      ]
+    },
+    {
+      "id": "honeycomb-wall-scad",
+      "name": "honeycomb-wall-scad",
+      "notes": "Parametric Honeycomb Storage Wall made in OpenSCAD.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/honeycomb-wall-scad"
+        }
+      ]
+    },
+    {
+      "id": "infinity-cube-scad",
+      "name": "infinity-cube-scad",
+      "notes": "Parametric Infinity Cube made in OpenSCAD.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/infinity-cube-scad"
+        }
+      ]
+    },
+    {
+      "id": "intelli-light",
+      "name": "intelli-light",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/intelli-light"
+        }
+      ]
+    },
+    {
+      "id": "just-the-docs-template-openscad",
+      "name": "just-the-docs-template-openscad",
+      "notes": "openscad variant of the one-click template to use just-the-docs on GitHub Pages",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/just-the-docs-template-openscad"
+        }
+      ]
+    },
+    {
+      "id": "kicad-hierarchical-designs",
+      "name": "KiCad-Hierarchical-Designs",
+      "notes": "A collection of common components and their typical application circuits done in KiCad.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/KiCad-Hierarchical-Designs"
+        }
+      ]
+    },
+    {
+      "id": "kicad-master-lib",
+      "name": "KiCad-Master-Lib",
+      "notes": "The main KiCad library for symbols and footprints for FEASTorg.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/KiCad-Master-Lib"
+        }
+      ]
+    },
+    {
+      "id": "kicad-simulation-examples",
+      "name": "KiCad-Simulation-Examples",
+      "notes": "Collection of electronic schematic examples done in KiCad, prepared for easy simulation with all spice components included.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/KiCad-Simulation-Examples"
+        }
+      ]
+    },
+    {
+      "id": "kneead",
+      "name": "KNEEAD",
+      "notes": "Knowledge for Nativagting Electrical & Electronic Architecture and Design (KNEEAD). A collection of best practices, review checklists, design conventions, hardware patterns, and architectural principles for electrical and electronics engineering.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/KNEEAD"
+        }
+      ]
+    },
+    {
+      "id": "l-system-scad",
+      "name": "L-System-SCAD",
+      "notes": "An L-system or Lindenmayer system implementation in OpenSCAD.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/L-System-SCAD"
+        }
+      ]
+    },
+    {
+      "id": "lab-grade-bioreactor",
+      "name": "lab-grade-bioreactor",
+      "notes": "Open source lab-grade bioreactor",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/lab-grade-bioreactor"
+        }
+      ]
+    },
+    {
+      "id": "levernut-holders",
+      "name": "levernut-holders",
+      "notes": "An OpenSCAD library for designing holders for lever nuts (Wago clips).",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/levernut-holders"
+        }
+      ]
+    },
+    {
+      "id": "linkmail-scad",
+      "name": "linkmail-scad",
+      "notes": "OpenSCAD library for generating parametric print-in-place tesselations of interlinking structures akin to chainmail.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/linkmail-scad"
+        }
+      ]
+    },
+    {
+      "id": "load-cell-scad",
+      "name": "load-cell-scad",
+      "notes": "Library for modelling various load cells and strain gauges in OpenSCAD.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/load-cell-scad"
+        }
+      ]
+    },
+    {
+      "id": "loaf-espt",
+      "name": "Loaf_ESPT",
+      "notes": "ESP32 Thing Plus Controller",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Loaf_ESPT"
+        }
+      ]
+    },
+    {
+      "id": "loaf",
+      "name": "LOAF",
+      "notes": "Locally Operated Automation Framework",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/LOAF"
+        }
+      ]
+    },
+    {
+      "id": "loafware",
+      "name": "loafware",
+      "notes": "Loafware is an open-source system for performing experiments and managing processes using low-cost, self-made scientific equipment, with a focus on ease of use and scalability for scientists and innovators.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/loafware"
+        }
+      ]
+    },
+    {
+      "id": "magstir-hotplate",
+      "name": "magstir-hotplate",
+      "notes": "An open-source hardware dseign for building lab-grade magnetic stirrer hot plates.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/magstir-hotplate"
+        }
+      ]
+    },
+    {
+      "id": "mass-scale",
+      "name": "mass-scale",
+      "notes": "A simple open source mass scale using off the shelf and 3D printed components.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/mass-scale"
+        }
+      ]
+    },
+    {
+      "id": "md2html-action",
+      "name": "md2html-action",
+      "notes": "GitHub Action to convert Markdown files to HTML with customizable templates and stylesheets using Pandoc",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/md2html-action"
+        }
+      ]
+    },
+    {
+      "id": "modix-community-resources",
+      "name": "modix-community-resources",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/modix-community-resources"
+        }
+      ]
+    },
+    {
+      "id": "myfreecadmisc",
+      "name": "myFreeCADmisc",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/myFreeCADmisc"
+        }
+      ]
+    },
+    {
+      "id": "open-source-bioreactor",
+      "name": "open-source-bioreactor",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/open-source-bioreactor"
+        }
+      ]
+    },
+    {
+      "id": "openagris3d",
+      "name": "OpenAgriS3D",
+      "notes": "A collection of parametric designs for agricultural applications to enable low-cost, sustainable and resilient farming practices",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/OpenAgriS3D"
+        }
+      ]
+    },
+    {
+      "id": "opennasopharyngealswab",
+      "name": "OpenNasopharyngealSwab",
+      "notes": "Open Source Nasopharyngeal Swab and UV Curing System",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/OpenNasopharyngealSwab"
+        }
+      ]
+    },
+    {
+      "id": "openreactor2",
+      "name": "OpenReactor2",
+      "notes": "Loafware is an open-source system for performing experiments and managing processes using low-cost, self-made scientific equipment, with a focus on ease of use and scalability for scientists and innovators.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/OpenReactor2"
+        }
+      ]
+    },
+    {
+      "id": "openscad-batch-export",
+      "name": "OpenSCAD-Batch-Export",
+      "notes": "Automates the batch export of STL models from OpenSCAD using parameter files (CSV/JSON) with CLI and GUI support.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/OpenSCAD-Batch-Export"
+        }
+      ]
+    },
+    {
+      "id": "orlab",
+      "name": "orlab",
+      "notes": "OrLab is a Python module designed for interacting and scripting with OpenRocket, with enhanced capabilities for simulations and computational workflows.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/orlab"
+        }
+      ]
+    },
+    {
+      "id": "oschssp-development",
+      "name": "oschssp-development",
+      "notes": "This is a repository of legacy designs related to the Open source cold and hot scientific sheet press",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/oschssp-development"
+        }
+      ]
+    },
+    {
+      "id": "oven",
+      "name": "OVEN",
+      "notes": "Organized Versatile Embedded Network",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/OVEN"
+        }
+      ]
+    },
+    {
+      "id": "pandoc-md2html-example",
+      "name": "pandoc-md2html-example",
+      "notes": "Exemplary workflow for building a website with pandoc from Markdown files",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/pandoc-md2html-example"
+        }
+      ]
+    },
+    {
+      "id": "panel-cube-joints",
+      "name": "panel-cube-joints",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/panel-cube-joints"
+        }
+      ]
+    },
+    {
+      "id": "parametric-calibration-objects",
+      "name": "parametric-calibration-objects",
+      "notes": "A library of calibration objects for calibration / benchmarking of your 3D printer.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/parametric-calibration-objects"
+        }
+      ]
+    },
+    {
+      "id": "parametric-electrical-enclosure",
+      "name": "parametric-electrical-enclosure",
+      "notes": "A highly scalable, waterproof OpenSCAD electronic case designed for 3D printing and customization.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/parametric-electrical-enclosure"
+        }
+      ]
+    },
+    {
+      "id": "parametric-funnel",
+      "name": "parametric-funnel",
+      "notes": "A parametric funnel made in OpenSCAD.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/parametric-funnel"
+        }
+      ]
+    },
+    {
+      "id": "parametric-junctionbox",
+      "name": "parametric-junctionbox",
+      "notes": "Parametric junction box",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/parametric-junctionbox"
+        }
+      ]
+    },
+    {
+      "id": "parametric-sensor-manifold",
+      "name": "parametric-sensor-manifold",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/parametric-sensor-manifold"
+        }
+      ]
+    },
+    {
+      "id": "parametric-wall-bin",
+      "name": "parametric-wall-bin",
+      "notes": "A simple parametric bin that mounts to the wall with optional text label.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/parametric-wall-bin"
+        }
+      ]
+    },
+    {
+      "id": "pc104-standard-kicad",
+      "name": "PC104-Standard-KiCad",
+      "notes": "PC/104 board schematics and footprints in KiCAD. WARNING: Work-in-progress.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/PC104-Standard-KiCad"
+        }
+      ]
+    },
+    {
+      "id": "peacock-engineering-playground",
+      "name": "Peacock-Engineering-Playground",
+      "notes": "My repo for experimenting with PicoGK",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/Peacock-Engineering-Playground"
+        }
+      ]
+    },
+    {
+      "id": "pipe-fitting-scad",
+      "name": "pipe-fitting-SCAD",
+      "notes": "OpenSCAD script for generating pipe fitting automatically.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/pipe-fitting-SCAD"
+        }
+      ]
+    },
+    {
+      "id": "pixelartscad",
+      "name": "pixelArtSCAD",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/pixelArtSCAD"
+        }
+      ]
+    },
+    {
+      "id": "planetary-gear-fidget",
+      "name": "planetary-gear-fidget",
+      "notes": "A planetary gear fidget toy made in OpenSCAD",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/planetary-gear-fidget"
+        }
+      ]
+    },
+    {
+      "id": "printer-profiles-settings",
+      "name": "printer-profiles-settings",
+      "notes": "3D printer profiles and settings for printers in the FAST lab.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/printer-profiles-settings"
+        }
+      ]
+    },
+    {
+      "id": "printmill-cr30",
+      "name": "PrintMill-CR30",
+      "notes": "My personal notes and docs on the Creality CR-30 PrintMill infinite Y-axis printer",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/PrintMill-CR30"
+        }
+      ]
+    },
+    {
+      "id": "protins",
+      "name": "PROTINS",
+      "notes": "Programmable Runtime Orchestration and Transport Interfaces for Node Supervision.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/PROTINS"
+        }
+      ]
+    },
+    {
+      "id": "protokit",
+      "name": "ProtoKit",
+      "notes": "ProtoKit is an open-source collection of protoboards, stripboards, expansion boards, and layout boards with configured footprints and trace routing. Designed in KiCad to support rapid electronics prototyping and customization.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/ProtoKit"
+        }
+      ]
+    },
+    {
+      "id": "pycrumbs",
+      "name": "pyCRUMBS",
+      "notes": "pyCRUMBS is the Python implementation of the CRUMBS protocol for use on Raspberry Pi and other SBCs.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/pyCRUMBS"
+        }
+      ]
+    },
+    {
+      "id": "repo-alpha",
+      "name": "repo-alpha",
+      "notes": "Repository Template Alpha for FAST Research Group's Projects.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/repo-alpha"
+        }
+      ]
+    },
+    {
+      "id": "rocketry-flight-logs",
+      "name": "rocketry-flight-logs",
+      "notes": "Open repository of rocketry flight computer and altimeter log files.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/rocketry-flight-logs"
+        }
+      ]
+    },
+    {
+      "id": "rpi-hat-template",
+      "name": "RPi_Hat_Template",
+      "notes": "KiCad template for a Raspberry Pi B+ Hat PCB.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/RPi_Hat_Template"
+        }
+      ]
+    },
+    {
+      "id": "scadworks",
+      "name": "scadworks",
+      "notes": "A collection of notes, scripts, tips, and examples from my experience using OpenSCAD for parametric design.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/scadworks"
+        }
+      ]
+    },
+    {
+      "id": "screw-switch",
+      "name": "screw-switch",
+      "notes": "Screw-actuated safety switch for arming high-power rocket electronics.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/screw-switch"
+        }
+      ]
+    },
+    {
+      "id": "slice-aaft",
+      "name": "Slice_AAFT",
+      "notes": "Audio Analysis / Fourier Transform Slice for BREAD",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_AAFT"
+        }
+      ]
+    },
+    {
+      "id": "slice-cr10",
+      "name": "Slice_CR10",
+      "notes": "10A Current Reader Slice for BREAD",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_CR10"
+        }
+      ]
+    },
+    {
+      "id": "slice-cr20",
+      "name": "Slice_CR20",
+      "notes": "20A Current Reader Slice for BREAD",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_CR20"
+        }
+      ]
+    },
+    {
+      "id": "slice-cr40",
+      "name": "Slice_CR40",
+      "notes": "40A Current Reader Slice for BREAD",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_CR40"
+        }
+      ]
+    },
+    {
+      "id": "slice-dcmt",
+      "name": "Slice_DCMT",
+      "notes": "DC Motor Driver Carrier Slice",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_DCMT"
+        }
+      ]
+    },
+    {
+      "id": "slice-phdo",
+      "name": "Slice_PHDO",
+      "notes": "Carrier board for the Atlas pH and Dissolved Oxygen sensors for BREAD",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_PHDO"
+        }
+      ]
+    },
+    {
+      "id": "slice-prto-conn-s2l",
+      "name": "Slice_PRTO_CONN_S2L",
+      "notes": "Prototyping Slice for Rapidly Creating BREAD Devices.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_PRTO_CONN_S2L"
+        }
+      ]
+    },
+    {
+      "id": "slice-prto-smt-s2l",
+      "name": "Slice_PRTO_SMT_S2L",
+      "notes": "Prototyping Slice for Rapidly Creating BREAD Devices.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_PRTO_SMT_S2L"
+        }
+      ]
+    },
+    {
+      "id": "slice-prto-tht-s2l",
+      "name": "Slice_PRTO_THT_S2L",
+      "notes": "Prototyping Slice for Rapidly Creating BREAD Devices.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_PRTO_THT_S2L"
+        }
+      ]
+    },
+    {
+      "id": "slice-prto-thta-s2l",
+      "name": "Slice_PRTO_THTA_S2L",
+      "notes": "Prototyping Slice for Rapidly Creating BREAD Devices.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_PRTO_THTA_S2L"
+        }
+      ]
+    },
+    {
+      "id": "slice-rlht",
+      "name": "Slice_RLHT",
+      "notes": "Relay Heating Element Controller Slice for BREAD",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_RLHT"
+        }
+      ]
+    },
+    {
+      "id": "slice-temp-nano-s2l-r1",
+      "name": "Slice_TEMP_NANO_S2L-r1",
+      "notes": "Template for repos contains BREAD SLICE modules.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_TEMP_NANO_S2L-r1"
+        }
+      ]
+    },
+    {
+      "id": "slice-temp-nano-s2l-r2",
+      "name": "Slice_TEMP_NANO_S2L-r2",
+      "notes": "Template for repos contains BREAD SLICE modules.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_TEMP_NANO_S2L-r2"
+        }
+      ]
+    },
+    {
+      "id": "slice-temp-nucl-l4l-r1",
+      "name": "Slice_TEMP_NUCL_L4L-r1",
+      "notes": "Template for repos contains BREAD SLICE modules.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_TEMP_NUCL_L4L-r1"
+        }
+      ]
+    },
+    {
+      "id": "slice-temp-nucl-s4l-r1",
+      "name": "Slice_TEMP_NUCL_S4L-r1",
+      "notes": "Template for repos contains BREAD SLICE modules.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_TEMP_NUCL_S4L-r1"
+        }
+      ]
+    },
+    {
+      "id": "slice-thrm-31855",
+      "name": "Slice_THRM_31855",
+      "notes": "Thermocouple Reader Slice for BREAD using MAX31855 IC.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_THRM_31855"
+        }
+      ]
+    },
+    {
+      "id": "slice-thrm-31856",
+      "name": "Slice_THRM_31856",
+      "notes": "Thermocouple Reader Slice for BREAD using MAX31856 IC.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/Slice_THRM_31856"
+        }
+      ]
+    },
+    {
+      "id": "slice",
+      "name": "SLICE",
+      "notes": "Single-function Logic Interface & Controller Element.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/SLICE"
+        }
+      ]
+    },
+    {
+      "id": "sliceware",
+      "name": "sliceware",
+      "notes": "",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/sliceware"
+        }
+      ]
+    },
+    {
+      "id": "snapfit-scad",
+      "name": "snapfit-scad",
+      "notes": "A simple 3D printable parametric snap fit designed in OpenSCAD.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/CameronBrooks11/snapfit-scad"
+        }
+      ]
+    },
+    {
+      "id": "sugirs",
+      "name": "SUGIRS",
+      "notes": "System User Graphical Interface & Remote Scheduling",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/FEASTorg/SUGIRS"
+        }
+      ]
+    },
+    {
+      "id": "uwo-fast-github",
+      "name": ".github",
+      "notes": "uwo-fast/.github is a \u2728special \u2728 repository that you can use to add README.md to your public organization profile, visible to anyone. Make sure it\u2019s public and and initialize it with a README in the profile directory to get started.",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/.github"
+        }
+      ]
+    },
+    {
+      "id": "uwo-fast-uwo-fast",
+      "name": "uwo-fast",
+      "notes": "Welcome to the UWO-FAST General Resources Repository. This repository is a centralized hub for various resources, guidelines, and tools to support our research group. Below is an overview of the contents:",
+      "repos": [
+        {
+          "host": "github",
+          "url": "https://github.com/uwo-fast/uwo-fast"
+        }
+      ]
+    }
+  ]
+}

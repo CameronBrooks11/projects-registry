@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import data from '../index.json'
+import data from '../projects-index.json'
 import FilterBar from './FilterBar.vue'
 
 type Project = {
@@ -46,7 +46,7 @@ const filtered = computed(() => {
     <FilterBar v-model:query="query" v-model:typeSel="typeSel" v-model:implSel="implSel" v-model:targetSel="targetSel"
         :taxonomy="data.taxonomy" />
     
-    <div class="project-count" style="margin:16px 0 8px 0;font-size:0.9rem;opacity:0.7;">
+    <div class="project-count">
         {{ filtered.length }} project{{ filtered.length !== 1 ? 's' : '' }}
     </div>
     

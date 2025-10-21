@@ -1,0 +1,135 @@
+.pending-section {
+  margin-top: 48px;
+}
+
+.pending-header {
+  margin-bottom: 16px;
+  margin-left : 8px;
+}
+
+.pending-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.pending-subtitle {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* Table Layout */
+.pending-table-wrapper {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--vp-c-bg);
+}
+
+.pending-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.pending-table thead {
+  background: var(--vp-c-bg-soft);
+}
+
+.pending-table th,
+.pending-table td {
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding: 12px 16px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.pending-table th {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.pending-table tr:last-child td {
+  border-bottom: none;
+}
+
+.pending-table th:first-child,
+.pending-table td:first-child {
+  border-left: none;
+}
+
+.pending-row:hover {
+  background: var(--vp-c-bg-soft);
+  transition: background 0.2s;
+}
+
+/* Columns */
+.col-pending-name {
+  width: 25%;
+}
+
+.col-pending-notes {
+  width: 55%;
+}
+
+.col-pending-repo {
+  width: 20%;
+  text-align: right;
+}
+
+/* Name + ID */
+.pending-project-name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--vp-c-text-1);
+}
+
+.pending-project-id {
+  font-size: 0.8rem;
+  color: var(--vp-c-text-3);
+}
+
+/* Repo Link */
+.pending-repo-link {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border: 1px solid var(--vp-c-brand);
+  border-radius: 4px;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-dark);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.pending-repo-link:hover {
+  opacity: 0.8;
+}
+
+.no-repo {
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pending-table th:nth-child(2),
+  .pending-table td:nth-child(2) {
+    display: none;
+  }
+
+  .col-pending-name {
+    width: 60%;
+  }
+
+  .col-pending-repo {
+    width: 40%;
+    text-align: left;
+  }
+}
