@@ -1,0 +1,18 @@
+id: oschssp-development
+name: oschssp-development
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/oschssp-development
+links:
+  issues: https://github.com/CameronBrooks11/oschssp-development/issues
+  docs: ''
+tags: []
+notes: This is a repository of legacy designs related to the Open source cold and
+  hot scientific sheet press

@@ -1,0 +1,17 @@
+id: geodesic-dome
+name: geodesic-dome
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/geodesic-dome
+links:
+  issues: https://github.com/CameronBrooks11/geodesic-dome/issues
+  docs: ''
+tags: []
+notes: ''

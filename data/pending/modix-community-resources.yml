@@ -1,0 +1,17 @@
+id: modix-community-resources
+name: modix-community-resources
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/modix-community-resources
+links:
+  issues: https://github.com/CameronBrooks11/modix-community-resources/issues
+  docs: ''
+tags: []
+notes: ''

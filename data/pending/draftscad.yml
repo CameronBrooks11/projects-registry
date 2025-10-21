@@ -1,0 +1,19 @@
+id: draftscad
+name: DraftSCAD
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/DraftSCAD
+links:
+  issues: https://github.com/CameronBrooks11/DraftSCAD/issues
+  docs: ''
+tags: []
+notes: An OpenSCAD library for creating detailed, dimensioned engineering drawings,
+  featuring modules for lines, dimensions, hole centers, leader lines, and customizable
+  title blocks.

@@ -1,0 +1,17 @@
+id: camscortex
+name: camscortex
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/camscortex
+links:
+  issues: https://github.com/CameronBrooks11/camscortex/issues
+  docs: ''
+tags: []
+notes: ''

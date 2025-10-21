@@ -1,0 +1,18 @@
+id: openagris3d
+name: OpenAgriS3D
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/OpenAgriS3D
+links:
+  issues: https://github.com/uwo-fast/OpenAgriS3D/issues
+  docs: ''
+tags: []
+notes: A collection of parametric designs for agricultural applications to enable
+  low-cost, sustainable and resilient farming practices

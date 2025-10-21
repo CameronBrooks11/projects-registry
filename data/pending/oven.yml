@@ -1,0 +1,17 @@
+id: oven
+name: OVEN
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/OVEN
+links:
+  issues: https://github.com/FEASTorg/OVEN/issues
+  docs: https://feastorg.github.io/oven/
+tags: []
+notes: Organized Versatile Embedded Network

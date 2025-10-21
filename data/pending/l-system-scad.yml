@@ -1,0 +1,17 @@
+id: l-system-scad
+name: L-System-SCAD
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/L-System-SCAD
+links:
+  issues: https://github.com/CameronBrooks11/L-System-SCAD/issues
+  docs: ''
+tags: []
+notes: An L-system or Lindenmayer system implementation in OpenSCAD.

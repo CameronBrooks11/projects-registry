@@ -1,0 +1,27 @@
+sources:
+  - type: user
+    name: CameronBrooks11
+    include_forks: false
+    include_archived: true
+    blacklist:
+      - Cams-Nexus
+
+  - type: org
+    name: FEASTorg
+    include_forks: false
+    include_archived: false
+    blacklist:
+      - .github
+      - uwo-fast
+
+  - type: org
+    name: uwo-fast
+    include_forks: false
+    include_archived: false
+    blacklist:
+      - placeholder-repo-name
+
+# global defaults
+defaults:
+  include_forks: false
+  include_archived: false

@@ -1,0 +1,17 @@
+id: repo-alpha
+name: repo-alpha
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/repo-alpha
+links:
+  issues: https://github.com/uwo-fast/repo-alpha/issues
+  docs: ''
+tags: []
+notes: Repository Template Alpha for FAST Research Group's Projects.

@@ -1,0 +1,17 @@
+id: levernut-holders
+name: levernut-holders
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/levernut-holders
+links:
+  issues: https://github.com/CameronBrooks11/levernut-holders/issues
+  docs: ''
+tags: []
+notes: An OpenSCAD library for designing holders for lever nuts (Wago clips).

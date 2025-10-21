@@ -1,0 +1,18 @@
+id: breads
+name: BREADS
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/BREADS
+links:
+  issues: https://github.com/FEASTorg/BREADS/issues
+  docs: https://feastorg.github.io/breads/
+tags: []
+notes: Open Source Framework for a Broadly Expandable and Reconfigurable Data Acquisition
+  and Automation Device (BREAD)

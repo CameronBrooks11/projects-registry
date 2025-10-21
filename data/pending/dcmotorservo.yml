@@ -1,0 +1,17 @@
+id: dcmotorservo
+name: DCMotorServo
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/DCMotorServo
+links:
+  issues: https://github.com/CameronBrooks11/DCMotorServo/issues
+  docs: ''
+tags: []
+notes: An Arduino Library for controlling DC motors with rotary encoders.

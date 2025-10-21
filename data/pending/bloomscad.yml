@@ -1,0 +1,17 @@
+id: bloomscad
+name: BloomSCAD
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/BloomSCAD
+links:
+  issues: https://github.com/CameronBrooks11/BloomSCAD/issues
+  docs: ''
+tags: []
+notes: Flowers and blooming structures in OpenSCAD.

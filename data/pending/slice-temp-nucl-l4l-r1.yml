@@ -1,0 +1,17 @@
+id: slice-temp-nucl-l4l-r1
+name: Slice_TEMP_NUCL_L4L-r1
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_TEMP_NUCL_L4L-r1
+links:
+  issues: https://github.com/FEASTorg/Slice_TEMP_NUCL_L4L-r1/issues
+  docs: https://feastorg.github.io/Slice_TEMP_NANO_S2L-r1/
+tags: []
+notes: Template for repos contains BREAD SLICE modules.

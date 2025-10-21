@@ -1,0 +1,25 @@
+id: snowflakefiniy
+name: SnowflakeFiniy
+type: tool
+implementation:
+  - software
+artifact:
+  - design
+  - 3d-print-model
+target:
+  - 3d-printer
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/snowflakefiniy
+links:
+  issues: https://github.com/CameronBrooks11/snowflakefiniy/issues
+  docs: ""
+tags:
+  - OpenSCAD
+  - 3d-printing
+  - snowflake
+  - ornament
+  - STL
+notes: Easy-to-print snowflake holiday decorations with holes for hanging; allows infinite variations by seed/size for 3D printing.

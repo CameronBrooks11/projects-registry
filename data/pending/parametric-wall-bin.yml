@@ -1,0 +1,17 @@
+id: parametric-wall-bin
+name: parametric-wall-bin
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/parametric-wall-bin
+links:
+  issues: https://github.com/CameronBrooks11/parametric-wall-bin/issues
+  docs: ''
+tags: []
+notes: A simple parametric bin that mounts to the wall with optional text label.

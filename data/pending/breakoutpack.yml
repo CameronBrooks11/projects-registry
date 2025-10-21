@@ -1,0 +1,19 @@
+id: breakoutpack
+name: BreakoutPack
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/BreakoutPack
+links:
+  issues: https://github.com/FEASTorg/BreakoutPack/issues
+  docs: ''
+tags: []
+notes: BreakoutPack is an open-source collection of breakout boards for ICs, connectors,
+  sensors, and other components, designed in KiCad to support easy integration and
+  rapid electronics development.

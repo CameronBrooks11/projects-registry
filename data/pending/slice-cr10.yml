@@ -1,0 +1,17 @@
+id: slice-cr10
+name: Slice_CR10
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_CR10
+links:
+  issues: https://github.com/FEASTorg/Slice_CR10/issues
+  docs: ''
+tags: []
+notes: 10A Current Reader Slice for BREAD

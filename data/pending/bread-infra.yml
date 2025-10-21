@@ -1,0 +1,17 @@
+id: bread-infra
+name: bread-infra
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/bread-infra
+links:
+  issues: https://github.com/FEASTorg/bread-infra/issues
+  docs: ''
+tags: []
+notes: ''

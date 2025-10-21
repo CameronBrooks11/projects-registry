@@ -1,0 +1,23 @@
+id: monospace-web-jekyll-theme
+name: monospace-web-jekyll-theme
+type: component
+implementation:
+  - software
+artifact:
+  - documentation
+target:
+  - browser
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/monospace-web-jekyll-theme
+links:
+  issues: https://github.com/CameronBrooks11/monospace-web-jekyll-theme/issues
+  docs: https://cameronbrooks11.github.io/monospace-web-jekyll-theme/
+tags:
+  - jekyll
+  - theme
+  - monospace
+  - css
+notes: Minimal Jekyll theme that vendors the monospace-web CSS/JS package.

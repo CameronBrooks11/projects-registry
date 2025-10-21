@@ -1,0 +1,18 @@
+id: openscad-batch-export
+name: OpenSCAD-Batch-Export
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/OpenSCAD-Batch-Export
+links:
+  issues: https://github.com/CameronBrooks11/OpenSCAD-Batch-Export/issues
+  docs: ''
+tags: []
+notes: Automates the batch export of STL models from OpenSCAD using parameter files
+  (CSV/JSON) with CLI and GUI support.

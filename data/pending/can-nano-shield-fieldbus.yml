@@ -1,0 +1,18 @@
+id: can-nano-shield-fieldbus
+name: can-nano-shield-fieldbus
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/can-nano-shield-fieldbus
+links:
+  issues: https://github.com/FEASTorg/can-nano-shield-fieldbus/issues
+  docs: https://feastorg.github.io/can-nano-shield-fieldbus/
+tags: []
+notes: A compact Arduino Nano shield with MCP2515 & TJA1051/3 for easy CAN bus integration,
+  equipped with an RJ45 connector and PoL module to provide field power. Work-in-progress.

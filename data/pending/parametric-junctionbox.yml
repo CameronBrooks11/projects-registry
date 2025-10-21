@@ -1,0 +1,17 @@
+id: parametric-junctionbox
+name: parametric-junctionbox
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/parametric-junctionbox
+links:
+  issues: https://github.com/CameronBrooks11/parametric-junctionbox/issues
+  docs: ''
+tags: []
+notes: Parametric junction box

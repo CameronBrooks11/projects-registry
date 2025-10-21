@@ -1,0 +1,17 @@
+id: honeycomb-wall-scad
+name: honeycomb-wall-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/honeycomb-wall-scad
+links:
+  issues: https://github.com/CameronBrooks11/honeycomb-wall-scad/issues
+  docs: ''
+tags: []
+notes: Parametric Honeycomb Storage Wall made in OpenSCAD.

@@ -1,0 +1,18 @@
+id: kicad-simulation-examples
+name: KiCad-Simulation-Examples
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/KiCad-Simulation-Examples
+links:
+  issues: https://github.com/FEASTorg/KiCad-Simulation-Examples/issues
+  docs: https://feastorg.github.io/kicad-simulation-examples/
+tags: []
+notes: Collection of electronic schematic examples done in KiCad, prepared for easy
+  simulation with all spice components included.

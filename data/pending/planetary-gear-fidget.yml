@@ -1,0 +1,17 @@
+id: planetary-gear-fidget
+name: planetary-gear-fidget
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/planetary-gear-fidget
+links:
+  issues: https://github.com/CameronBrooks11/planetary-gear-fidget/issues
+  docs: ''
+tags: []
+notes: A planetary gear fidget toy made in OpenSCAD

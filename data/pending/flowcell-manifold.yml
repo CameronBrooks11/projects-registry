@@ -1,0 +1,17 @@
+id: flowcell-manifold
+name: flowcell-manifold
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/flowcell-manifold
+links:
+  issues: https://github.com/CameronBrooks11/flowcell-manifold/issues
+  docs: ''
+tags: []
+notes: ''

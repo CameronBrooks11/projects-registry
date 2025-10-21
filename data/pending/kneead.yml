@@ -1,0 +1,19 @@
+id: kneead
+name: KNEEAD
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/KNEEAD
+links:
+  issues: https://github.com/FEASTorg/KNEEAD/issues
+  docs: https://feastorg.github.io/
+tags: []
+notes: Knowledge for Nativagting Electrical & Electronic Architecture and Design (KNEEAD).
+  A collection of best practices, review checklists, design conventions, hardware
+  patterns, and architectural principles for electrical and electronics engineering.

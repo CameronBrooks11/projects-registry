@@ -1,0 +1,17 @@
+id: panel-cube-joints
+name: panel-cube-joints
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/panel-cube-joints
+links:
+  issues: https://github.com/CameronBrooks11/panel-cube-joints/issues
+  docs: ''
+tags: []
+notes: ''

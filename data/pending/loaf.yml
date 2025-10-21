@@ -1,0 +1,17 @@
+id: loaf
+name: LOAF
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/LOAF
+links:
+  issues: https://github.com/FEASTorg/LOAF/issues
+  docs: https://feastorg.github.io/loaf/
+tags: []
+notes: Locally Operated Automation Framework

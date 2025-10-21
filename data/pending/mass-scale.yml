@@ -1,0 +1,17 @@
+id: mass-scale
+name: mass-scale
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/mass-scale
+links:
+  issues: https://github.com/uwo-fast/mass-scale/issues
+  docs: ''
+tags: []
+notes: A simple open source mass scale using off the shelf and 3D printed components.

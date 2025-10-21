@@ -1,0 +1,17 @@
+id: snapfit-scad
+name: snapfit-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/snapfit-scad
+links:
+  issues: https://github.com/CameronBrooks11/snapfit-scad/issues
+  docs: ''
+tags: []
+notes: A simple 3D printable parametric snap fit designed in OpenSCAD.

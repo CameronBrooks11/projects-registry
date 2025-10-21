@@ -1,0 +1,20 @@
+id: thetiny
+name: TheTiny
+type: software
+implementation:
+  - software
+artifact:
+  - tool
+target:
+  - pc
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/TheTiny
+links:
+  issues: https://github.com/CameronBrooks11/TheTiny/issues
+tags:
+  - utility
+  - experimental
+notes: Lightweight software utility “TheTiny”. Early-stage prototype tool.

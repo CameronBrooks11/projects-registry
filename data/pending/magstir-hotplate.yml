@@ -1,0 +1,18 @@
+id: magstir-hotplate
+name: magstir-hotplate
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/magstir-hotplate
+links:
+  issues: https://github.com/uwo-fast/magstir-hotplate/issues
+  docs: ''
+tags: []
+notes: An open-source hardware dseign for building lab-grade magnetic stirrer hot
+  plates.

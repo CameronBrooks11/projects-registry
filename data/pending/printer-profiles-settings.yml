@@ -1,0 +1,17 @@
+id: printer-profiles-settings
+name: printer-profiles-settings
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/printer-profiles-settings
+links:
+  issues: https://github.com/uwo-fast/printer-profiles-settings/issues
+  docs: ''
+tags: []
+notes: 3D printer profiles and settings for printers in the FAST lab.

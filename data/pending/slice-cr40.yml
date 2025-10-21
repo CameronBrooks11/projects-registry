@@ -1,0 +1,17 @@
+id: slice-cr40
+name: Slice_CR40
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_CR40
+links:
+  issues: https://github.com/FEASTorg/Slice_CR40/issues
+  docs: ''
+tags: []
+notes: 40A Current Reader Slice for BREAD

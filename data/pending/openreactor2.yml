@@ -1,0 +1,19 @@
+id: openreactor2
+name: OpenReactor2
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/OpenReactor2
+links:
+  issues: https://github.com/uwo-fast/OpenReactor2/issues
+  docs: ''
+tags: []
+notes: Loafware is an open-source system for performing experiments and managing processes
+  using low-cost, self-made scientific equipment, with a focus on ease of use and
+  scalability for scientists and innovators.

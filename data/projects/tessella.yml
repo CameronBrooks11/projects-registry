@@ -1,0 +1,23 @@
+id: tessella
+name: Tessella
+type: component
+implementation:
+  - software
+artifact:
+  - library
+target:
+  - CAD
+  - OpenSCAD
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/tessella
+links:
+  issues: https://github.com/CameronBrooks11/tessella/issues
+tags:
+  - OpenSCAD
+  - tessellation
+  - polygon
+  - tiling
+notes: OpenSCAD library building regular and semi-regular polygonal tessellations; facilitates intricate tiling pattern generation.

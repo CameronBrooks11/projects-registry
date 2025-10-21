@@ -1,0 +1,17 @@
+id: slice-dcmt
+name: Slice_DCMT
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_DCMT
+links:
+  issues: https://github.com/FEASTorg/Slice_DCMT/issues
+  docs: https://feastorg.github.io/Slice_DCMT/
+tags: []
+notes: DC Motor Driver Carrier Slice

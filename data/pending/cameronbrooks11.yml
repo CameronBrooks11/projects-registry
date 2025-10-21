@@ -1,0 +1,17 @@
+id: cameronbrooks11
+name: CameronBrooks11
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/CameronBrooks11
+links:
+  issues: https://github.com/CameronBrooks11/CameronBrooks11/issues
+  docs: ''
+tags: []
+notes: My personal repository.

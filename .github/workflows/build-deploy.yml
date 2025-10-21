@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -21,11 +21,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: "npm"
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -35,6 +39,19 @@ jobs:
 
       - name: Install Python deps
         run: pip install -r requirements.txt
+
+      - name: Scan GitHub and add pending entries
+        run: |
+          python scripts/scan_github_pending.py
+          if [ -n "$(git status --porcelain data/pending || true)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/pending
+            git commit -m "chore(pending): add new repos [skip ci]"
+            git push
+          else
+            echo "No changes in data/pending"
+          fi
 
       - name: Validate project data
         run: python scripts/validate.py

@@ -1,0 +1,18 @@
+id: biropette
+name: biropette
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/biropette
+links:
+  issues: https://github.com/CameronBrooks11/biropette/issues
+  docs: ''
+tags: []
+notes: Open-source, parametric, 3D-printable micropipette derived from the OpenLabware
+  Biropette for accurate, low-cost liquid handling.

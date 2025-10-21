@@ -1,0 +1,17 @@
+id: slice-prto-conn-s2l
+name: Slice_PRTO_CONN_S2L
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_PRTO_CONN_S2L
+links:
+  issues: https://github.com/FEASTorg/Slice_PRTO_CONN_S2L/issues
+  docs: https://feastorg.github.io/Slice_PRTO_CONN_S2L/
+tags: []
+notes: Prototyping Slice for Rapidly Creating BREAD Devices.

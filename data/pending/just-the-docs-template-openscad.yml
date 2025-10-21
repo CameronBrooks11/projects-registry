@@ -1,0 +1,17 @@
+id: just-the-docs-template-openscad
+name: just-the-docs-template-openscad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/just-the-docs-template-openscad
+links:
+  issues: https://github.com/CameronBrooks11/just-the-docs-template-openscad/issues
+  docs: https://cameronbrooks11.github.io/just-the-docs-template-openscad/
+tags: []
+notes: openscad variant of the one-click template to use just-the-docs on GitHub Pages

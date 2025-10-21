@@ -1,0 +1,17 @@
+id: din168-thread-scad
+name: din168-thread-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/din168-thread-scad
+links:
+  issues: https://github.com/CameronBrooks11/din168-thread-scad/issues
+  docs: ''
+tags: []
+notes: DIN168 standard threads in OpenSCAD. Used in GL-xx series laboratory glassware.

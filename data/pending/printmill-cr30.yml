@@ -1,0 +1,18 @@
+id: printmill-cr30
+name: PrintMill-CR30
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/PrintMill-CR30
+links:
+  issues: https://github.com/CameronBrooks11/PrintMill-CR30/issues
+  docs: ''
+tags: []
+notes: My personal notes and docs on the Creality CR-30 PrintMill infinite Y-axis
+  printer

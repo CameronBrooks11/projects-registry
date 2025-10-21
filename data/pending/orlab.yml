@@ -1,0 +1,18 @@
+id: orlab
+name: orlab
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/orlab
+links:
+  issues: https://github.com/CameronBrooks11/orlab/issues
+  docs: ''
+tags: []
+notes: OrLab is a Python module designed for interacting and scripting with OpenRocket,
+  with enhanced capabilities for simulations and computational workflows.

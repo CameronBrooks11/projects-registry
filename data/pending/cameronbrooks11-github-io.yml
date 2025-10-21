@@ -1,0 +1,17 @@
+id: cameronbrooks11-github-io
+name: cameronbrooks11.github.io
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/cameronbrooks11.github.io
+links:
+  issues: https://github.com/CameronBrooks11/cameronbrooks11.github.io/issues
+  docs: https://cameronbrooks11.github.io/
+tags: []
+notes: ''

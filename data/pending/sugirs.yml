@@ -1,0 +1,17 @@
+id: sugirs
+name: SUGIRS
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/SUGIRS
+links:
+  issues: https://github.com/FEASTorg/SUGIRS/issues
+  docs: https://feastorg.github.io/sugirs/
+tags: []
+notes: System User Graphical Interface & Remote Scheduling

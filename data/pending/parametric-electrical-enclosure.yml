@@ -1,0 +1,18 @@
+id: parametric-electrical-enclosure
+name: parametric-electrical-enclosure
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/parametric-electrical-enclosure
+links:
+  issues: https://github.com/CameronBrooks11/parametric-electrical-enclosure/issues
+  docs: ''
+tags: []
+notes: A highly scalable, waterproof OpenSCAD electronic case designed for 3D printing
+  and customization.

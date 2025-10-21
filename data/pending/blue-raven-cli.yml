@@ -1,0 +1,17 @@
+id: blue-raven-cli
+name: blue-raven-cli
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/blue-raven-cli
+links:
+  issues: https://github.com/CameronBrooks11/blue-raven-cli/issues
+  docs: ''
+tags: []
+notes: ''

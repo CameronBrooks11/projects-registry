@@ -1,0 +1,18 @@
+id: envsafetylogger
+name: EnvSafetyLogger
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/EnvSafetyLogger
+links:
+  issues: https://github.com/uwo-fast/EnvSafetyLogger/issues
+  docs: ''
+tags: []
+notes: An environmental monitoring system for industrial safety, featuring multi-gas
+  sensors, temperature, humidity, data logging, and alerts.

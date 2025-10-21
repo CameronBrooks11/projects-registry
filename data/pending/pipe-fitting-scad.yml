@@ -1,0 +1,17 @@
+id: pipe-fitting-scad
+name: pipe-fitting-SCAD
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/pipe-fitting-SCAD
+links:
+  issues: https://github.com/uwo-fast/pipe-fitting-SCAD/issues
+  docs: ''
+tags: []
+notes: OpenSCAD script for generating pipe fitting automatically.

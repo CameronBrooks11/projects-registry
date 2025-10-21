@@ -1,0 +1,17 @@
+id: pc104-standard-kicad
+name: PC104-Standard-KiCad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/PC104-Standard-KiCad
+links:
+  issues: https://github.com/CameronBrooks11/PC104-Standard-KiCad/issues
+  docs: ''
+tags: []
+notes: 'PC/104 board schematics and footprints in KiCAD. WARNING: Work-in-progress.'

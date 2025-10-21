@@ -1,0 +1,17 @@
+id: load-cell-scad
+name: load-cell-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/load-cell-scad
+links:
+  issues: https://github.com/CameronBrooks11/load-cell-scad/issues
+  docs: ''
+tags: []
+notes: Library for modelling various load cells and strain gauges in OpenSCAD.

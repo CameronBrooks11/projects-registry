@@ -1,0 +1,17 @@
+id: parametric-sensor-manifold
+name: parametric-sensor-manifold
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/parametric-sensor-manifold
+links:
+  issues: https://github.com/uwo-fast/parametric-sensor-manifold/issues
+  docs: ''
+tags: []
+notes: ''

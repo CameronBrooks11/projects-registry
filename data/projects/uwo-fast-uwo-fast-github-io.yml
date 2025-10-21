@@ -1,0 +1,23 @@
+id: uwo-fast-gh-pages
+name: FAST Research Group Website
+type: system
+implementation:
+  - software
+artifact:
+  - documentation
+target:
+  - browser
+maturity: production
+status: active
+repos:
+  - host: github
+    url: https://github.com/uwo-fast/uwo-fast.github.io
+links:
+  issues: https://github.com/uwo-fast/uwo-fast.github.io/issues
+  docs: https://uwo-fast.github.io
+tags:
+  - ux
+  - website
+  - jekyll
+  - open-source
+notes: Official website for the FAST Research Group (Western University) built using Jekyll and GitHub Pages; serves as hub for open-source projects, documentation and community. :contentReference[oaicite:1]{index=1}

@@ -1,0 +1,17 @@
+id: slice-thrm-31855
+name: Slice_THRM_31855
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_THRM_31855
+links:
+  issues: https://github.com/FEASTorg/Slice_THRM_31855/issues
+  docs: https://feastorg.github.io/Slice_THRM_31855/
+tags: []
+notes: Thermocouple Reader Slice for BREAD using MAX31855 IC.

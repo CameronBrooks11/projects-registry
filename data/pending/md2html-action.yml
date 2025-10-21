@@ -1,0 +1,18 @@
+id: md2html-action
+name: md2html-action
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/md2html-action
+links:
+  issues: https://github.com/CameronBrooks11/md2html-action/issues
+  docs: https://cameronbrooks11.github.io/md2html-action/
+tags: []
+notes: GitHub Action to convert Markdown files to HTML with customizable templates
+  and stylesheets using Pandoc

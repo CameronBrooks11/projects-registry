@@ -1,0 +1,18 @@
+id: parametric-calibration-objects
+name: parametric-calibration-objects
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/parametric-calibration-objects
+links:
+  issues: https://github.com/CameronBrooks11/parametric-calibration-objects/issues
+  docs: ''
+tags: []
+notes: A library of calibration objects for calibration / benchmarking of your 3D
+  printer.

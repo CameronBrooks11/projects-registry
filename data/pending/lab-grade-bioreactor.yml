@@ -1,0 +1,17 @@
+id: lab-grade-bioreactor
+name: lab-grade-bioreactor
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/lab-grade-bioreactor
+links:
+  issues: https://github.com/uwo-fast/lab-grade-bioreactor/issues
+  docs: ''
+tags: []
+notes: Open source lab-grade bioreactor

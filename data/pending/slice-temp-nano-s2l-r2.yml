@@ -1,0 +1,17 @@
+id: slice-temp-nano-s2l-r2
+name: Slice_TEMP_NANO_S2L-r2
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_TEMP_NANO_S2L-r2
+links:
+  issues: https://github.com/FEASTorg/Slice_TEMP_NANO_S2L-r2/issues
+  docs: https://feastorg.github.io/Slice_TEMP_NANO_S2L-r2/
+tags: []
+notes: Template for repos contains BREAD SLICE modules.

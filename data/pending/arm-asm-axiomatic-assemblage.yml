@@ -1,0 +1,19 @@
+id: arm-asm-axiomatic-assemblage
+name: arm-asm-axiomatic-assemblage
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/arm-asm-axiomatic-assemblage
+links:
+  issues: https://github.com/CameronBrooks11/arm-asm-axiomatic-assemblage/issues
+  docs: ''
+tags: []
+notes: Inspired from my crammed creation of Magic Microcontrollers Meets Massive Mindmap
+  (ECE 3375B), a beautiful creation originally curated with help of fellow students
+  in ECE 3375B at Western University.

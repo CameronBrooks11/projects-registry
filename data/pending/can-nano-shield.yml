@@ -1,0 +1,18 @@
+id: can-nano-shield
+name: can-nano-shield
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/can-nano-shield
+links:
+  issues: https://github.com/FEASTorg/can-nano-shield/issues
+  docs: https://feastorg.github.io/can-nano-shield/
+tags: []
+notes: A compact Arduino Nano shield with MCP2515 & TJA1051/3 for easy CAN bus integration.
+  Work-in-progress.

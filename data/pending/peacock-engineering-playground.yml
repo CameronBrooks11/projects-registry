@@ -1,0 +1,17 @@
+id: peacock-engineering-playground
+name: Peacock-Engineering-Playground
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/Peacock-Engineering-Playground
+links:
+  issues: https://github.com/CameronBrooks11/Peacock-Engineering-Playground/issues
+  docs: ''
+tags: []
+notes: My repo for experimenting with PicoGK

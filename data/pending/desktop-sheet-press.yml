@@ -1,0 +1,18 @@
+id: desktop-sheet-press
+name: desktop-sheet-press
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/desktop-sheet-press
+links:
+  issues: https://github.com/uwo-fast/desktop-sheet-press/issues
+  docs: ''
+tags: []
+notes: Open-source sheet press for recycling plastic waste into flat sheets, designed
+  for sustainability and adaptability.

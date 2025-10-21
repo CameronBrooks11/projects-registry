@@ -1,0 +1,17 @@
+id: kicad-master-lib
+name: KiCad-Master-Lib
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/KiCad-Master-Lib
+links:
+  issues: https://github.com/FEASTorg/KiCad-Master-Lib/issues
+  docs: https://feastorg.github.io/kicad-master-lib/
+tags: []
+notes: The main KiCad library for symbols and footprints for FEASTorg.

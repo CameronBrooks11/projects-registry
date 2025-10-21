@@ -1,0 +1,18 @@
+id: fabricatus-astra
+name: Fabricatus-Astra
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/Fabricatus-Astra
+links:
+  issues: https://github.com/CameronBrooks11/Fabricatus-Astra/issues
+  docs: ''
+tags: []
+notes: Fully computationally engineering and additively manufactured high-powered
+  sounding rocket.

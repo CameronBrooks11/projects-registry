@@ -1,0 +1,23 @@
+id: amcb
+name: Additive Manufacture Circuit Base (AMCB)
+type: component
+implementation:
+  - hardware
+artifact:
+  - design
+  - documentation
+target: []
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/uwo-fast/amcb
+links:
+  issues: https://github.com/uwo-fast/amcb/issues
+  docs: https://www.mdpi.com/2411-5134/8/2/61
+tags:
+  - 3d-printing
+  - breakout-board
+  - soic-to-dip
+  - openscad
+notes: 3D-printed, solderless breakout adapter platform enabling SOIC-to-DIP prototyping at low cost.

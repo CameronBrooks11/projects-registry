@@ -1,0 +1,19 @@
+id: loafware
+name: loafware
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/loafware
+links:
+  issues: https://github.com/FEASTorg/loafware/issues
+  docs: ''
+tags: []
+notes: Loafware is an open-source system for performing experiments and managing processes
+  using low-cost, self-made scientific equipment, with a focus on ease of use and
+  scalability for scientists and innovators.

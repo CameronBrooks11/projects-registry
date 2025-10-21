@@ -1,0 +1,17 @@
+id: slice-aaft
+name: Slice_AAFT
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_AAFT
+links:
+  issues: https://github.com/FEASTorg/Slice_AAFT/issues
+  docs: ''
+tags: []
+notes: Audio Analysis / Fourier Transform Slice for BREAD

@@ -1,0 +1,17 @@
+id: google-sheets-tasks-sync
+name: Google-Sheets-Tasks-Sync
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/Google-Sheets-Tasks-Sync
+links:
+  issues: https://github.com/CameronBrooks11/Google-Sheets-Tasks-Sync/issues
+  docs: ''
+tags: []
+notes: ''

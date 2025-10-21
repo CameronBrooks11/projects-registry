@@ -1,0 +1,17 @@
+id: geodesic-polyhedron
+name: geodesic-polyhedron
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/geodesic-polyhedron
+links:
+  issues: https://github.com/CameronBrooks11/geodesic-polyhedron/issues
+  docs: ''
+tags: []
+notes: ''

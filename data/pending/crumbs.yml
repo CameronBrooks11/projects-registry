@@ -1,0 +1,18 @@
+id: crumbs
+name: CRUMBS
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/CRUMBS
+links:
+  issues: https://github.com/FEASTorg/CRUMBS/issues
+  docs: https://feastorg.github.io/crumbs/
+tags: []
+notes: Communications Router and Unified Message Broker System (CRUMBS) supports the
+  SPREAD firmware for BREAD.

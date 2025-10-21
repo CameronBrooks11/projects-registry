@@ -1,0 +1,17 @@
+id: pixelartscad
+name: pixelArtSCAD
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/pixelArtSCAD
+links:
+  issues: https://github.com/CameronBrooks11/pixelArtSCAD/issues
+  docs: ''
+tags: []
+notes: ''

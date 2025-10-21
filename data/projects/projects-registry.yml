@@ -1,0 +1,24 @@
+id: projects-registry
+name: Projects Registry
+type: system
+implementation:
+  - software
+artifact:
+  - dataset
+  - documentation
+target:
+  - web
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/projects-registry
+links:
+  issues: https://github.com/CameronBrooks11/projects-registry/issues
+  docs: https://cameronbrooks11.github.io/projects-registry/
+tags:
+  - registry
+  - vitepress
+  - automation
+  - yaml
+notes: (This) data-driven registry of open projects with automated taxonomy and site generation.

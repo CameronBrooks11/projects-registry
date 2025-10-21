@@ -1,0 +1,19 @@
+id: hangprinter-v4
+name: hangprinter-v4
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/hangprinter-v4
+links:
+  issues: https://github.com/uwo-fast/hangprinter-v4/issues
+  docs: ''
+tags: []
+notes: The Hangprinter v4 is a an open-source RepRap 3D printer with a minimalist
+  design. It utilizes a tethered printing head suspended on cables, allowing for mid-air
+  printing without the constraints of a traditional build volume.

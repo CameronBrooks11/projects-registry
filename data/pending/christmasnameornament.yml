@@ -1,0 +1,18 @@
+id: christmasnameornament
+name: ChristmasNameOrnament
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/ChristmasNameOrnament
+links:
+  issues: https://github.com/CameronBrooks11/ChristmasNameOrnament/issues
+  docs: ''
+tags: []
+notes: Customizable Christmas ornament generator with options for text, fonts, snowflake
+  designs, and multi-color 3D printing.

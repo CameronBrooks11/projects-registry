@@ -1,0 +1,17 @@
+id: rocketry-flight-logs
+name: rocketry-flight-logs
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/rocketry-flight-logs
+links:
+  issues: https://github.com/CameronBrooks11/rocketry-flight-logs/issues
+  docs: ''
+tags: []
+notes: Open repository of rocketry flight computer and altimeter log files.

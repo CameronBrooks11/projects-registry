@@ -1,0 +1,18 @@
+id: devboarddepot
+name: DevBoardDepot
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/DevBoardDepot
+links:
+  issues: https://github.com/FEASTorg/DevBoardDepot/issues
+  docs: https://feastorg.github.io/devboarddepot/
+tags: []
+notes: DevBoardDepot is an open-source collection of MCU development boards and kits,
+  designed in KiCad for streamlined embedded development, testing, and prototyping.

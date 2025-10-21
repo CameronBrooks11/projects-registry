@@ -1,0 +1,23 @@
+id: monospace-web-theme
+name: monospace-web-theme
+type: component
+implementation:
+  - software
+artifact:
+  - documentation
+target:
+  - browser
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/monospace-web-theme
+links:
+  issues: https://github.com/CameronBrooks11/monospace-web-theme/issues
+  docs: https://cameronbrooks11.github.io/monospace-web-theme/
+tags:
+  - css
+  - javascript
+  - monospace
+  - layout-grid
+notes: Pure CSS+JS theme enforcing a character-aligned grid with responsive monospace typography.

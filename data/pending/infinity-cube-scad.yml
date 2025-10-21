@@ -1,0 +1,17 @@
+id: infinity-cube-scad
+name: infinity-cube-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/infinity-cube-scad
+links:
+  issues: https://github.com/CameronBrooks11/infinity-cube-scad/issues
+  docs: ''
+tags: []
+notes: Parametric Infinity Cube made in OpenSCAD.

@@ -1,0 +1,17 @@
+id: bdc-motor-scad
+name: bdc-motor-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/bdc-motor-scad
+links:
+  issues: https://github.com/CameronBrooks11/bdc-motor-scad/issues
+  docs: ''
+tags: []
+notes: OpenSCAD library for modeling brushed DC motors with parameters.

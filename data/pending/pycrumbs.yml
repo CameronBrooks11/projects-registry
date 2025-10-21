@@ -1,0 +1,18 @@
+id: pycrumbs
+name: pyCRUMBS
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/pyCRUMBS
+links:
+  issues: https://github.com/FEASTorg/pyCRUMBS/issues
+  docs: https://feastorg.github.io/pycrumbs/
+tags: []
+notes: pyCRUMBS is the Python implementation of the CRUMBS protocol for use on Raspberry
+  Pi and other SBCs.

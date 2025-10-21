@@ -1,0 +1,17 @@
+id: rpi-hat-template
+name: RPi_Hat_Template
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/RPi_Hat_Template
+links:
+  issues: https://github.com/CameronBrooks11/RPi_Hat_Template/issues
+  docs: ''
+tags: []
+notes: KiCad template for a Raspberry Pi B+ Hat PCB.

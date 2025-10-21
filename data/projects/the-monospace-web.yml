@@ -1,0 +1,24 @@
+id: the-monospace-web
+name: The Monospace Web
+type: system
+implementation:
+  - software
+artifact:
+  - documentation
+target:
+  - browser
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/the-monospace-web
+links:
+  issues: https://github.com/CameronBrooks11/the-monospace-web/issues
+  docs: https://cameronbrooks11.github.io/the-monospace-web/
+tags:
+  - monospace
+  - pandoc
+  - static-site
+  - makefile
+  - nix
+notes: Minimal, Markdown-driven static site using a character-aligned grid and the monospace-web theme.

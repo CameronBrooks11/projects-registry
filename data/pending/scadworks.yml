@@ -1,0 +1,18 @@
+id: scadworks
+name: scadworks
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/scadworks
+links:
+  issues: https://github.com/CameronBrooks11/scadworks/issues
+  docs: ''
+tags: []
+notes: A collection of notes, scripts, tips, and examples from my experience using
+  OpenSCAD for parametric design.

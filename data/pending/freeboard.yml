@@ -1,0 +1,20 @@
+id: freeboard
+name: freeboard
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/freeboard
+links:
+  issues: https://github.com/CameronBrooks11/freeboard/issues
+  docs: https://CameronBrooks11.github.io/freeboard/
+tags: []
+notes: This ain’t your grandfather’s Freeboard! This fork of the damn-sexy, open source
+  real-time dashboard builder for IOT and other web mashups now adds MongoDB persistence,
+  a GraphQL backend, Docker Compose, Vue 3, CORS proxy, monorepo support, pre‑commit
+  hooks, and CSS variables.

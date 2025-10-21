@@ -1,0 +1,17 @@
+id: slice
+name: SLICE
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/SLICE
+links:
+  issues: https://github.com/FEASTorg/SLICE/issues
+  docs: https://feastorg.github.io/slice/
+tags: []
+notes: Single-function Logic Interface & Controller Element.

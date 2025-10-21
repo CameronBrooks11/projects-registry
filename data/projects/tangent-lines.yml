@@ -1,0 +1,23 @@
+id: tangent-lines
+name: Tangent-Lines
+type: tool
+implementation:
+  - software
+artifact:
+  - model
+  - script
+target:
+  - OpenSCAD
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/tangent-lines
+links:
+  issues: https://github.com/CameronBrooks11/tangent-lines/issues
+tags:
+  - OpenSCAD
+  - geometry
+  - circle
+  - CAD
+notes: OpenSCAD script to calculate and draw tangent lines to a circle or between circles; useful for parametric CAD geometry and design work‐flow.

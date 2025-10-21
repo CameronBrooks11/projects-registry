@@ -1,0 +1,17 @@
+id: b123d-template-test
+name: b123d-template-test
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/b123d-template-test
+links:
+  issues: https://github.com/CameronBrooks11/b123d-template-test/issues
+  docs: ''
+tags: []
+notes: ''
