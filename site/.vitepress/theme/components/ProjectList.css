@@ -198,13 +198,11 @@
     grid-template-columns: 2fr 1fr 1fr;
     gap: 12px;
   }
-
   .col-impl,
   .col-target,
   .col-status {
     display: none;
   }
-
   .project-header .col-impl,
   .project-header .col-target,
   .project-header .col-status {
@@ -218,15 +216,12 @@
     grid-template-columns: 1fr;
     gap: 8px;
   }
-
   .project-header {
     display: none;
   }
-
   .project-row {
     padding: 16px;
   }
-
   .col-type,
   .col-links {
     display: flex;
@@ -234,14 +229,12 @@
     gap: 8px;
     margin-top: 8px;
   }
-
   .col-type::before {
     content: "Type:";
     font-size: 0.8rem;
     font-weight: 600;
     color: var(--vp-c-text-2);
   }
-
   .col-links::before {
     content: "Links:";
     font-size: 0.8rem;

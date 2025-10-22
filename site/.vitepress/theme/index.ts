@@ -10,5 +10,5 @@ export default {
     app.component('ProjectList', ProjectList)
     app.component('FilterBar', FilterBar)
     app.component('PendingList', PendingList)
-  },
+  }
 }

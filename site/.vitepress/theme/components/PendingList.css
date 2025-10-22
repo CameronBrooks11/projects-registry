@@ -4,7 +4,6 @@
 
 .pending-header {
   margin-bottom: 16px;
-  margin-left : 8px;
 }
 
 .pending-title {
@@ -58,11 +57,6 @@
   border-bottom: none;
 }
 
-.pending-table th:first-child,
-.pending-table td:first-child {
-  border-left: none;
-}
-
 .pending-row:hover {
   background: var(--vp-c-bg-soft);
   transition: background 0.2s;
@@ -72,11 +66,9 @@
 .col-pending-name {
   width: 25%;
 }
-
 .col-pending-notes {
   width: 55%;
 }
-
 .col-pending-repo {
   width: 20%;
   text-align: right;
@@ -123,11 +115,9 @@
   .pending-table td:nth-child(2) {
     display: none;
   }
-
   .col-pending-name {
     width: 60%;
   }
-
   .col-pending-repo {
     width: 40%;
     text-align: left;

@@ -14,20 +14,41 @@ const targetSel = defineModel<string>('targetSel')
 </script>
 
 <template>
-    <div style="display:flex;gap:12px;flex-wrap:wrap;">
-        <input v-model="query" placeholder="Search…"
-            style="flex:1;min-width:220px;padding:8px;border:1px solid var(--vp-c-divider);border-radius:8px;">
-        <select v-model="typeSel" style="padding:8px;border:1px solid var(--vp-c-divider);border-radius:8px;">
+    <div class="filter-bar" role="search">
+        <label class="sr-only" for="search">Search</label>
+        <input id="search" v-model="query" class="ctrl search" placeholder="Search…" type="search" autocomplete="off" />
+
+        <label class="sr-only" for="typeSel">Type</label>
+        <select id="typeSel" v-model="typeSel" class="ctrl">
             <option value="">Type: any</option>
             <option v-for="t in taxonomy.types" :key="t" :value="t">{{ t }}</option>
         </select>
-        <select v-model="implSel" style="padding:8px;border:1px solid var(--vp-c-divider);border-radius:8px;">
+
+        <label class="sr-only" for="implSel">Implementation</label>
+        <select id="implSel" v-model="implSel" class="ctrl">
             <option value="">Impl: any</option>
             <option v-for="t in taxonomy.implementation" :key="t" :value="t">{{ t }}</option>
         </select>
-        <select v-model="targetSel" style="padding:8px;border:1px solid var(--vp-c-divider);border-radius:8px;">
+
+        <label class="sr-only" for="targetSel">Target</label>
+        <select id="targetSel" v-model="targetSel" class="ctrl">
             <option value="">Target: any</option>
             <option v-for="t in taxonomy.target" :key="t" :value="t">{{ t }}</option>
         </select>
     </div>
 </template>
+
+<style scoped>
+/* screen-reader only helper */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+</style>

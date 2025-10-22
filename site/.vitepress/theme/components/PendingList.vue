@@ -44,13 +44,7 @@ const sortedPending = computed(() =>
               {{ p.notes || 'No description available' }}
             </td>
             <td class="pending-repo">
-              <a
-                v-if="p.repos?.length"
-                :href="p.repos[0].url"
-                target="_blank"
-                rel="noopener"
-                class="pending-repo-link"
-              >
+              <a v-if="p.repos?.length" :href="p.repos[0].url" target="_blank" rel="noopener" class="pending-repo-link">
                 VIEW REPO
               </a>
               <span v-else class="no-repo">—</span>

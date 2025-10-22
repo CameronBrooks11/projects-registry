@@ -1,11 +1,11 @@
-/* --- layout width tuning --- */
+/* ---------------- Layout width tuning ---------------- */
 :root {
   --vp-layout-max-width: 1480px !important;
   --vp-layout-max-width-narrow: 1480px !important;
   --vp-layout-max-width-tight: 1480px !important;
 }
 
-/* break all internal width caps from DefaultTheme */
+/* Break DefaultTheme caps so content can expand */
 .VPContent .container,
 .VPDoc .container,
 .VPDoc .content,
@@ -16,23 +16,51 @@
   margin-right: auto;
 }
 
-/* page padding */
+/* Page padding */
 .VPDoc {
   padding: 0 2.25rem;
 }
 
-/* allow registry components to stretch to full layout width */
+/* Registry components stretch to full layout width */
 .filter-bar,
 .project-list {
   width: 100%;
   max-width: none;
 }
 
-/* optional: keep ultra-wide displays from going absurdly wide */
+/* Gentle cap on ultra-wide screens */
 @media (min-width: 1900px) {
   .VPContent,
   .VPDoc,
   .VPDoc .container {
     max-width: 85vw !important;
   }
+}
+
+/* ---------------- Shared micro styles ---------------- */
+.project-count {
+  margin: 16px 0 8px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* FilterBar controls (remove all inline styles) */
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.filter-bar .ctrl {
+  padding: 8px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  font-size: 0.95rem;
+}
+
+.filter-bar .search {
+  flex: 1 1 220px;
+  min-width: 220px;
 }
