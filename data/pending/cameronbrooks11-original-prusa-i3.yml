@@ -1,0 +1,17 @@
+id: cameronbrooks11-original-prusa-i3
+name: Original-Prusa-i3
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/Original-Prusa-i3
+links:
+  issues: https://github.com/CameronBrooks11/Original-Prusa-i3/issues
+  docs: http://prusa3d.com
+tags: []
+notes: Original Prusa i3 MK2 3D printer printed parts
