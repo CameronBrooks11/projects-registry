@@ -1,0 +1,19 @@
+id: cameronbrooks11-fiberpath
+name: fiberpath
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/fiberpath
+links:
+  issues: https://github.com/CameronBrooks11/fiberpath/issues
+  docs: https://cameronbrooks11.github.io/fiberpath/
+tags: []
+notes: FiberPath is a next-generation tool for planning, simulating, and executing
+  filament-winding jobs on cylindrical mandrels to produce precise, repeatable composite
+  parts.
