@@ -1,0 +1,17 @@
+id: cameronbrooks11-rod-connectors
+name: rod-connectors
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/rod-connectors
+links:
+  issues: https://github.com/CameronBrooks11/rod-connectors/issues
+  docs: ''
+tags: []
+notes: Rod connectors in OpenSCAD.
