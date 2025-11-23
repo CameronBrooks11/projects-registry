@@ -1,0 +1,18 @@
+id: feastorg-linuxwire
+name: LinuxWire
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/LinuxWire
+links:
+  issues: https://github.com/FEASTorg/LinuxWire/issues
+  docs: ''
+tags: []
+notes: LinuxWire is a minimal Linux-native I²C abstraction library that mirrors Arduino’s
+  Wire API.

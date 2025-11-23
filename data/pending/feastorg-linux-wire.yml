@@ -1,0 +1,18 @@
+id: feastorg-linux-wire
+name: linux-wire
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/linux-wire
+links:
+  issues: https://github.com/FEASTorg/linux-wire/issues
+  docs: ''
+tags: []
+notes: linux-wire is a minimal Linux-native I²C library that mirrors Arduino’s Wire
+  API.
