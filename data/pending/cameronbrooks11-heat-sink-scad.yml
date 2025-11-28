@@ -1,0 +1,17 @@
+id: cameronbrooks11-heat-sink-scad
+name: heat-sink-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/heat-sink-scad
+links:
+  issues: https://github.com/CameronBrooks11/heat-sink-scad/issues
+  docs: ''
+tags: []
+notes: Heat sink models in OpenSCAD.
