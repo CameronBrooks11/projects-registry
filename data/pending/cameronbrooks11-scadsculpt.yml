@@ -1,0 +1,17 @@
+id: cameronbrooks11-scadsculpt
+name: scadsculpt
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/scadsculpt
+links:
+  issues: https://github.com/CameronBrooks11/scadsculpt/issues
+  docs: ''
+tags: []
+notes: Some random sculptures in OpenSCAD.
