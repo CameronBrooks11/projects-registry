@@ -1,0 +1,18 @@
+id: cameronbrooks11-open-hardware-ethos-study
+name: open-hardware-ethos-study
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/open-hardware-ethos-study
+links:
+  issues: https://github.com/CameronBrooks11/open-hardware-ethos-study/issues
+  docs: ''
+tags: []
+notes: Longitudinal analysis of how open-hardware companies evolve their licensing,
+  policies, and public commitments over time.
