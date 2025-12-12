@@ -1,0 +1,17 @@
+id: cameronbrooks11-loc-line
+name: loc-line
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/loc-line
+links:
+  issues: https://github.com/CameronBrooks11/loc-line/issues
+  docs: ''
+tags: []
+notes: Parametric loc line modelled in OpenSCAD.
