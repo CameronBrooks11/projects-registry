@@ -1,0 +1,17 @@
+id: cameronbrooks11-openscad-library-manager
+name: openscad-library-manager
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/openscad-library-manager
+links:
+  issues: https://github.com/CameronBrooks11/openscad-library-manager/issues
+  docs: ''
+tags: []
+notes: GSoC Project 2024 - A library manager for OpenSCAD
