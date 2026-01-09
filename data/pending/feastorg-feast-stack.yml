@@ -1,0 +1,17 @@
+id: feastorg-feast-stack
+name: feast-stack
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/feast-stack
+links:
+  issues: https://github.com/FEASTorg/feast-stack/issues
+  docs: ''
+tags: []
+notes: Deployment and orchestration for the FEAST stack.
