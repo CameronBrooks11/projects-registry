@@ -1,0 +1,18 @@
+id: feastorg-fermentix
+name: fermentix
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/fermentix
+links:
+  issues: https://github.com/FEASTorg/fermentix/issues
+  docs: ''
+tags: []
+notes: FEAST Experiment Runtime Manager for Execution, Navigation, and Telemetry Integration
+  eXchange
