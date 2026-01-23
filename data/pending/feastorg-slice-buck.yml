@@ -1,0 +1,17 @@
+id: feastorg-slice-buck
+name: Slice_BUCK
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_BUCK
+links:
+  issues: https://github.com/FEASTorg/Slice_BUCK/issues
+  docs: ''
+tags: []
+notes: Buck Converter Signal Generator Slice for BREAD

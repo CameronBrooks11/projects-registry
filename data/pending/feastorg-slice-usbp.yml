@@ -1,0 +1,17 @@
+id: feastorg-slice-usbp
+name: Slice_USBP
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_USBP
+links:
+  issues: https://github.com/FEASTorg/Slice_USBP/issues
+  docs: ''
+tags: []
+notes: Universal Serial Bus (USB) Port Slice for BREAD

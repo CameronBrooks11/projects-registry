@@ -1,0 +1,17 @@
+id: feastorg-slice-serv
+name: Slice_SERV
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_SERV
+links:
+  issues: https://github.com/FEASTorg/Slice_SERV/issues
+  docs: ''
+tags: []
+notes: Servo Motor Control Slice for BREAD

@@ -1,0 +1,17 @@
+id: feastorg-slice-step
+name: Slice_STEP
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_STEP
+links:
+  issues: https://github.com/FEASTorg/Slice_STEP/issues
+  docs: ''
+tags: []
+notes: Stepper Motor Driver Carrier Slice for BREAD

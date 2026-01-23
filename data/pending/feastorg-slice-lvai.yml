@@ -1,0 +1,17 @@
+id: feastorg-slice-lvai
+name: Slice_LVAI
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_LVAI
+links:
+  issues: https://github.com/FEASTorg/Slice_LVAI/issues
+  docs: ''
+tags: []
+notes: Analog Reader Slice for BREAD

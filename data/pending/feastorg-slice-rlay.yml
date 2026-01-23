@@ -1,0 +1,17 @@
+id: feastorg-slice-rlay
+name: Slice_RLAY
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Slice_RLAY
+links:
+  issues: https://github.com/FEASTorg/Slice_RLAY/issues
+  docs: ''
+tags: []
+notes: 4-Channel Relay Slice for BREAD

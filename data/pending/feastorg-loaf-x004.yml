@@ -1,0 +1,17 @@
+id: feastorg-loaf-x004
+name: Loaf_x004
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/Loaf_x004
+links:
+  issues: https://github.com/FEASTorg/Loaf_x004/issues
+  docs: ''
+tags: []
+notes: Loaf backplane extender.
