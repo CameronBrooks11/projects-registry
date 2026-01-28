@@ -1,0 +1,17 @@
+id: feastorg-nano-dev-boards
+name: nano-dev-boards
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/nano-dev-boards
+links:
+  issues: https://github.com/FEASTorg/nano-dev-boards/issues
+  docs: ''
+tags: []
+notes: Nano-format MCU development boards designed in KiCad.

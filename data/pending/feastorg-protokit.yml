@@ -1,0 +1,19 @@
+id: feastorg-protokit
+name: protokit
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/protokit
+links:
+  issues: https://github.com/FEASTorg/protokit/issues
+  docs: https://feastorg.github.io/protokit/
+tags: []
+notes: protokit is an open-source collection of protoboards, stripboards, expansion
+  boards, and layout boards with configured footprints and trace routing. Designed
+  in KiCad to support rapid electronics prototyping and customization.
