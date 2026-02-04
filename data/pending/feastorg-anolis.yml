@@ -1,0 +1,17 @@
+id: feastorg-anolis
+name: anolis
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/anolis
+links:
+  issues: https://github.com/FEASTorg/anolis/issues
+  docs: ''
+tags: []
+notes: ''
