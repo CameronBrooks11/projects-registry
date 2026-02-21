@@ -1,0 +1,17 @@
+id: feastorg-anolis-protocol
+name: anolis-protocol
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/anolis-protocol
+links:
+  issues: https://github.com/FEASTorg/anolis-protocol/issues
+  docs: ''
+tags: []
+notes: ''
