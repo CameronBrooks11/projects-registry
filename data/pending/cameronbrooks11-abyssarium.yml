@@ -1,0 +1,19 @@
+id: cameronbrooks11-abyssarium
+name: abyssarium
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/abyssarium
+links:
+  issues: https://github.com/CameronBrooks11/abyssarium/issues
+  docs: https://cameronbrooks11.github.io/abyssarium/
+tags: []
+notes: Not a real project, for testing generative AI tools and workflows. Abyssarium
+  is a chaotic procedural aquarium where strange creatures evolve, swarm, and react
+  to disturbances in a simulated fluid tank.

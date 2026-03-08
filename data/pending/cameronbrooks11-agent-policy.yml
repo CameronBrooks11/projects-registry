@@ -1,0 +1,17 @@
+id: cameronbrooks11-agent-policy
+name: agent-policy
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/agent-policy
+links:
+  issues: https://github.com/CameronBrooks11/agent-policy/issues
+  docs: https://cameronbrooks11.github.io/agent-policy/
+tags: []
+notes: Schema-first policy generator for coding-agent repo instructions and guardrails.
