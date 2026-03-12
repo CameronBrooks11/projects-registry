@@ -1,0 +1,19 @@
+id: cameronbrooks11-openscad-web
+name: openscad-web
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/openscad-web
+links:
+  issues: https://github.com/CameronBrooks11/openscad-web/issues
+  docs: ''
+tags: []
+notes: OpenSCAD Web is a browser-based environment for creating, customizing, and
+  viewing OpenSCAD models, running the OpenSCAD engine in WebAssembly with a built-in
+  editor, customizer, and 3D viewer.
