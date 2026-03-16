@@ -1,0 +1,17 @@
+id: feastorg-bread-crumbs-contracts
+name: bread-crumbs-contracts
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/bread-crumbs-contracts
+links:
+  issues: https://github.com/FEASTorg/bread-crumbs-contracts/issues
+  docs: ''
+tags: []
+notes: CRUMBS contracts for BREAD Slices.

@@ -1,0 +1,17 @@
+id: feastorg-anolis-provider-bread
+name: anolis-provider-bread
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/anolis-provider-bread
+links:
+  issues: https://github.com/FEASTorg/anolis-provider-bread/issues
+  docs: ''
+tags: []
+notes: BREAD hardware provider for the Anolis runtime.
