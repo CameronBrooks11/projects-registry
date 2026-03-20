@@ -1,0 +1,17 @@
+id: feastorg-ezo-driver
+name: ezo-driver
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/ezo-driver
+links:
+  issues: https://github.com/FEASTorg/ezo-driver/issues
+  docs: ''
+tags: []
+notes: Library for using Atlas Scientific EZO devices in I2C mode.

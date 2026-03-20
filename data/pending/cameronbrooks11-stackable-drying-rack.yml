@@ -1,0 +1,18 @@
+id: cameronbrooks11-stackable-drying-rack
+name: stackable-drying-rack
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/stackable-drying-rack
+links:
+  issues: https://github.com/CameronBrooks11/stackable-drying-rack/issues
+  docs: ''
+tags: []
+notes: Parametric, modular drying rack system with stackable units for customizable
+  airflow, capacity, and footprint.
