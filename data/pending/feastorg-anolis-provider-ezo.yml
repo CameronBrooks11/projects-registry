@@ -1,0 +1,17 @@
+id: feastorg-anolis-provider-ezo
+name: anolis-provider-ezo
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/anolis-provider-ezo
+links:
+  issues: https://github.com/FEASTorg/anolis-provider-ezo/issues
+  docs: ''
+tags: []
+notes: Ezo sensor hardware provider for the Anolis runtime.
