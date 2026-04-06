@@ -1,0 +1,17 @@
+id: cameronbrooks11-drag-chain
+name: drag-chain
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/drag-chain
+links:
+  issues: https://github.com/CameronBrooks11/drag-chain/issues
+  docs: https://cameronbrooks11.github.io/drag-chain/
+tags: []
+notes: An OpenSCAD library for creating drag chains.
