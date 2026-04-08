@@ -1,0 +1,17 @@
+id: uwo-fast-thread-rcp-firmware
+name: thread-rcp-firmware
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/thread-rcp-firmware
+links:
+  issues: https://github.com/uwo-fast/thread-rcp-firmware/issues
+  docs: https://uwo-fast.github.io/thread-rcp-firmware/
+tags: []
+notes: ''
