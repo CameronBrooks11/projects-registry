@@ -1,0 +1,17 @@
+id: cameronbrooks11-baseliner
+name: baseliner
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/baseliner
+links:
+  issues: https://github.com/CameronBrooks11/baseliner/issues
+  docs: ''
+tags: []
+notes: ''
