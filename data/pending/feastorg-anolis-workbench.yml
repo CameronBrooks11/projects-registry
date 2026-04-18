@@ -1,0 +1,17 @@
+id: feastorg-anolis-workbench
+name: anolis-workbench
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/FEASTorg/anolis-workbench
+links:
+  issues: https://github.com/FEASTorg/anolis-workbench/issues
+  docs: ''
+tags: []
+notes: ''
