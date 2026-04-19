@@ -1,0 +1,17 @@
+id: cameronbrooks11-bayonet-lock-scad
+name: bayonet-lock-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/bayonet-lock-scad
+links:
+  issues: https://github.com/CameronBrooks11/bayonet-lock-scad/issues
+  docs: ''
+tags: []
+notes: ''
