@@ -1,0 +1,17 @@
+id: uwo-fast-well-plate-guide
+name: well-plate-guide
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/well-plate-guide
+links:
+  issues: https://github.com/uwo-fast/well-plate-guide/issues
+  docs: ''
+tags: []
+notes: Well plate guide made in OpenSCAD.
