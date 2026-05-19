@@ -64,3 +64,16 @@
   flex: 1 1 220px;
   min-width: 220px;
 }
+
+.filter-bar .clear-btn {
+  background: var(--vp-c-danger-soft, #fee2e2);
+  color: var(--vp-c-danger-dark, #b91c1c);
+  border-color: var(--vp-c-danger, #ef4444);
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.filter-bar .clear-btn:hover {
+  opacity: 0.8;
+}
