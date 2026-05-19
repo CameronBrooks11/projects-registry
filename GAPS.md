@@ -23,6 +23,7 @@
 - ~~No `.github/dependabot.yml` — npm and pip dependencies are unmonitored~~ → added; weekly updates for both ecosystems
 - ~~No `CHANGELOG.md`~~ → added with 0.1.0 (initial MVP) and 0.2.0 (all changes from this session)
 
-## Phase 6 — Data Cleanup
-- `data/projects/` — 14 files, consistent and schema-compliant
-- `data/pending/` — ~180 auto-generated stubs; many have low-quality `notes` (raw GitHub descriptions) and need manual review before promotion to `projects/`
+## Phase 6 — Data Cleanup (ongoing / manual)
+- `data/projects/` — 13 files, consistent and schema-compliant
+- `data/pending/` — 194 auto-generated stubs; all have `implementation: ["software"]` default and need manual classification; 38 have empty notes, 10 have very short notes
+- Added `scripts/promote.py` to assist: validates a stub against the schema before moving it to `data/projects/`; `--audit` flag lists all pending files with quality flags (`no-notes`, `short-notes`, `default-impl`)
