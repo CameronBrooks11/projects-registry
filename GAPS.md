@@ -5,11 +5,11 @@
 - ~~JS/Markdown: no `prettier`, `.editorconfig`, or `eslint`~~ → added `.prettierrc`, `.editorconfig`; prettier added to `package.json`
 - ~~No `.pre-commit-config.yaml`~~ → added with ruff, ruff-format, prettier, and pre-commit-hooks
 
-## Phase 2 — Data Integrity
-- `validate.py` does not verify that the YAML filename matches the `id` field inside the file
-- `validate.py` does not validate `data/pending/` — only `data/projects/`
-- No URL reachability checks for `repos` / `links` fields
-- No field-length guards on `notes` or `tags`
+## ~~Phase 2 — Data Integrity~~ ✓
+- ~~`validate.py` does not verify that the YAML filename matches the `id` field inside the file~~ → added; caught and fixed 3 real mismatches in `data/projects/`
+- ~~`validate.py` does not validate `data/pending/` — only `data/projects/`~~ → added warn-only pass over `data/pending/` (suppressible with `--skip-pending`)
+- ~~No URL reachability checks for `repos` / `links` fields~~ → added `--check-urls` flag (opt-in, HEAD requests with timeout)
+- ~~No field-length guards on `notes` or `tags`~~ → added `notes.maxLength: 500`, `tags.maxItems: 20`, `tags.items.maxLength: 50` in `gen_schema.py`
 
 ## Phase 3 — Build Enrichment
 - `build.py`: derived data (GitHub stars, activity score, last commit date) is stubbed out but not implemented

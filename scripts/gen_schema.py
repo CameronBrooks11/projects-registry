@@ -87,10 +87,11 @@ def build_schema(tax: dict) -> dict:
             },
             "tags": {
                 "type": "array",
-                "items": {"type": "string"},
+                "items": {"type": "string", "maxLength": 50},
                 "uniqueItems": True,
+                "maxItems": 20,
             },
-            "notes": {"type": "string"},
+            "notes": {"type": "string", "maxLength": 500},
         },
     }
 

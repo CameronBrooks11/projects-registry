@@ -139,12 +139,15 @@
     "tags": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "maxLength": 50
       },
-      "uniqueItems": true
+      "uniqueItems": true,
+      "maxItems": 20
     },
     "notes": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 500
     }
   }
 }
