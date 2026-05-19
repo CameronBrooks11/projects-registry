@@ -216,3 +216,7 @@ pnpm-debug.log*
 site/.vitepress/.temp/
 site/.vitepress/cache/
 site/.vitepress/dist/
+
+# Generated dataset files (produced by build.py)
+site/.vitepress/theme/projects-index.json
+site/.vitepress/theme/pending-index.json
