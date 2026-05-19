@@ -1,8 +1,9 @@
+# Runtime — used by scripts and CI
 PyYAML
 jsonschema
 requests
 
-# dev
+# Dev tools — local only (linting, type-checking, pre-commit hooks)
 ruff
 mypy
 pre-commit
