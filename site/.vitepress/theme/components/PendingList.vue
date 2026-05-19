@@ -12,7 +12,7 @@ type PendingProject = {
 const pending = (data.pending as PendingProject[]) || []
 
 const sortedPending = computed(() =>
-  pending.sort((a, b) => a.name.localeCompare(b.name))
+  [...pending].sort((a, b) => a.name.localeCompare(b.name))
 )
 </script>
 
