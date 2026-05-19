@@ -11,8 +11,8 @@
 - ~~No URL reachability checks for `repos` / `links` fields~~ → added `--check-urls` flag (opt-in, HEAD requests with timeout)
 - ~~No field-length guards on `notes` or `tags`~~ → added `notes.maxLength: 500`, `tags.maxItems: 20`, `tags.items.maxLength: 50` in `gen_schema.py`
 
-## Phase 3 — Build Enrichment
-- `build.py`: derived data (GitHub stars, activity score, last commit date) is stubbed out but not implemented
+## ~~Phase 3 — Build Enrichment~~ ✓
+- ~~`build.py`: derived data (GitHub stars, activity score, last commit date) is stubbed out but not implemented~~ → implemented; pass `--enrich` to fetch live GitHub stats (stars, forks, open issues, last commit, language, topics) and compute a weighted activity score; gracefully degrades if token absent or API unavailable
 
 ## Phase 4 — CI/CD
 - `scan_github_pending.py` makes unauthenticated GitHub API calls (60 req/hr limit); `GITHUB_TOKEN` is available in the runner but not passed to the script
