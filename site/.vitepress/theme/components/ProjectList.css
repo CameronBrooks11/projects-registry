@@ -71,6 +71,14 @@
   margin-top: 4px;
 }
 
+/* project-badges replaces project-tags in template; keep both selectors */
+.project-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
 .tag {
   font-size: 0.7rem;
   background: var(--vp-c-bg-soft);
@@ -84,6 +92,15 @@
   font-size: 0.7rem;
   color: var(--vp-c-text-3);
   font-style: italic;
+}
+
+.artifact-badge {
+  font-size: 0.7rem;
+  background: var(--vp-c-purple-soft, #ede9fe);
+  border: 1px solid var(--vp-c-purple, #7c3aed);
+  color: var(--vp-c-purple-dark, #5b21b6);
+  border-radius: 3px;
+  padding: 1px 5px;
 }
 
 /* Type Column */
@@ -108,6 +125,13 @@
   font-size: 0.8rem;
   color: var(--vp-c-text-2);
   text-transform: capitalize;
+}
+
+.primary-lang {
+  font-size: 0.72rem;
+  color: var(--vp-c-text-3);
+  font-family: monospace;
+  margin-top: 4px;
 }
 
 /* Target Column */
@@ -137,7 +161,22 @@
 .status-info {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 3px;
+}
+
+.status-row {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+}
+
+.status-label {
+  font-size: 0.62rem;
+  color: var(--vp-c-text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  min-width: 46px;
+  flex-shrink: 0;
 }
 
 .maturity {
@@ -147,9 +186,14 @@
 }
 
 .status {
+  font-size: 0.8rem;
+  color: var(--vp-c-text-2);
+  text-transform: capitalize;
+}
+
+.last-commit {
   font-size: 0.75rem;
   color: var(--vp-c-text-3);
-  text-transform: capitalize;
 }
 
 /* Links Column */
@@ -175,6 +219,12 @@
   border-color: var(--vp-c-brand);
 }
 
+.link-btn.site {
+  background: var(--vp-c-indigo-soft, #e0e7ff);
+  color: var(--vp-c-indigo-dark, #3730a3);
+  border-color: var(--vp-c-indigo, #6366f1);
+}
+
 .link-btn.docs {
   background: var(--vp-c-green-soft);
   color: var(--vp-c-green-dark);
@@ -189,6 +239,20 @@
 
 .link-btn:hover {
   opacity: 0.8;
+}
+
+.star-count {
+  font-size: 0.75rem;
+  color: var(--vp-c-text-3);
+  margin-top: 5px;
+}
+
+/* Empty state */
+.empty-state {
+  padding: 32px 16px;
+  text-align: center;
+  color: var(--vp-c-text-2);
+  font-size: 0.95rem;
 }
 
 /* Responsive Design */
