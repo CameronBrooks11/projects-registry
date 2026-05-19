@@ -19,9 +19,9 @@
 - ~~Scan job commits auto-generated pending stubs directly to `main` (race-condition-prone, noisy history)~~ → added `git pull --rebase origin main` before push to handle concurrent runs
 - ~~No PR preview/staging workflow; site only deploys on push to `main`~~ → added `.github/workflows/ci.yml` that runs `validate.py` on all PRs to `main`
 
-## Phase 5 — Housekeeping
-- No `.github/dependabot.yml` — npm and pip dependencies are unmonitored
-- No `CHANGELOG.md`
+## ~~Phase 5 — Housekeeping~~ ✓
+- ~~No `.github/dependabot.yml` — npm and pip dependencies are unmonitored~~ → added; weekly updates for both ecosystems
+- ~~No `CHANGELOG.md`~~ → added with 0.1.0 (initial MVP) and 0.2.0 (all changes from this session)
 
 ## Phase 6 — Data Cleanup
 - `data/projects/` — 14 files, consistent and schema-compliant
