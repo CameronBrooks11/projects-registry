@@ -1,0 +1,28 @@
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["scripts"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "SIM", # flake8-simplify
+]
+ignore = ["E501"] # line length enforced by formatter
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.mypy]
+python_version = "3.11"
+strict = false
+warn_unused_imports = true
+warn_return_any = true
+ignore_missing_imports = true
+files = ["scripts"]
