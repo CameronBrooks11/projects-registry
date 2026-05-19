@@ -2,9 +2,10 @@
 """
 Scan GitHub sources (users/orgs) defined in data/github_scan.yml
 and generate pending project stubs in data/pending/.
-No GitHub token required.
+Set GITHUB_TOKEN env var to use authenticated requests (5000 req/hr vs 60).
 """
 
+import os
 import pathlib
 import re
 import sys
@@ -42,10 +43,19 @@ def kebab(s):
     return s.strip("-")
 
 
-def gh_paged(url):
+def _make_session() -> requests.Session:
+    session = requests.Session()
+    session.headers.update({"Accept": "application/vnd.github+json"})
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        session.headers["Authorization"] = f"Bearer {token}"
+    return session
+
+
+def gh_paged(url, session: requests.Session):
     page = 1
     while True:
-        r = requests.get(url, params={"per_page": 100, "page": page})
+        r = session.get(url, params={"per_page": 100, "page": page})
         if r.status_code != 200:
             break
         items = r.json()
@@ -108,6 +118,10 @@ def main():
         print("Missing config:", CONFIG_FILE)
         sys.exit(1)
 
+    session = _make_session()
+    authenticated = bool(os.environ.get("GITHUB_TOKEN"))
+    print(f"GitHub API: {'authenticated (5000 req/hr)' if authenticated else 'unauthenticated (60 req/hr)'}")
+
     cfg = load_yaml(CONFIG_FILE)
     defaults = cfg.get("defaults", {})
     sources = cfg.get("sources", [])
@@ -134,7 +148,7 @@ def main():
 
         print(f"Scanning {stype}:{name} (forks={inc_forks}, archived={inc_arch})")
 
-        for repo in gh_paged(url):
+        for repo in gh_paged(url, session):
             html = repo["html_url"]
             rname = repo["name"].lower()
             if not inc_forks and repo.get("fork"):

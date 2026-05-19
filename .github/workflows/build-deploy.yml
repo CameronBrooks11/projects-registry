@@ -41,6 +41,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Scan GitHub and add pending entries
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/scan_github_pending.py
           if [ -n "$(git status --porcelain data/pending || true)" ]; then
@@ -48,6 +50,7 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/pending
             git commit -m "chore(pending): add new repos [skip ci]"
+            git pull --rebase origin main
             git push
           else
             echo "No changes in data/pending"
@@ -57,7 +60,9 @@ jobs:
         run: python scripts/validate.py
 
       - name: Build dataset
-        run: python scripts/build.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build.py --enrich
 
       - name: Install Node deps
         run: npm install
