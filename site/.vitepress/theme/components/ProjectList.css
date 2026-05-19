@@ -96,9 +96,9 @@
 
 .artifact-badge {
   font-size: 0.7rem;
-  background: var(--vp-c-purple-soft, #ede9fe);
-  border: 1px solid var(--vp-c-purple, #7c3aed);
-  color: var(--vp-c-purple-dark, #5b21b6);
+  background: #6d28d9;
+  border: 1px solid #5b21b6;
+  color: #fff;
   border-radius: 3px;
   padding: 1px 5px;
 }
