@@ -1,0 +1,17 @@
+id: feastorg-slice-aoem
+name: Slice_AOEM
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/Slice_AOEM
+links:
+  issues: https://github.com/feastorg/Slice_AOEM/issues
+  docs: ''
+tags: []
+notes: Altas Scientific OEM Slice for BREAD (pH, DO, EC, ORP)

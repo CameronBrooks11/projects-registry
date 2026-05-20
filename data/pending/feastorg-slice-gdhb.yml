@@ -1,0 +1,17 @@
+id: feastorg-slice-gdhb
+name: Slice_GDHB
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/Slice_GDHB
+links:
+  issues: https://github.com/feastorg/Slice_GDHB/issues
+  docs: ''
+tags: []
+notes: Gate-driven Discrete H-Bridge Slice

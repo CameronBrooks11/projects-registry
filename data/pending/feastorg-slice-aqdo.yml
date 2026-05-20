@@ -1,0 +1,17 @@
+id: feastorg-slice-aqdo
+name: Slice_AQDO
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/Slice_AQDO
+links:
+  issues: https://github.com/feastorg/Slice_AQDO/issues
+  docs: ''
+tags: []
+notes: Aqueous DO probe SLICE for BREAD.

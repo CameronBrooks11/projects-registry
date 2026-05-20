@@ -1,0 +1,17 @@
+id: feastorg-slice-solr
+name: Slice_SOLR
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/Slice_SOLR
+links:
+  issues: https://github.com/feastorg/Slice_SOLR/issues
+  docs: ''
+tags: []
+notes: Field Polar Power Slice for BREAD

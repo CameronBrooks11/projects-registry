@@ -1,0 +1,17 @@
+id: feastorg-slice-vcac
+name: Slice_VCAC
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/Slice_VCAC
+links:
+  issues: https://github.com/feastorg/Slice_VCAC/issues
+  docs: ''
+tags: []
+notes: AC voltage and current measurement SLICE for BREAD.

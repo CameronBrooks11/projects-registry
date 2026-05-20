@@ -1,0 +1,18 @@
+id: feastorg-slice-fpsg
+name: Slice_FPSG
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/Slice_FPSG
+links:
+  issues: https://github.com/feastorg/Slice_FPSG/issues
+  docs: ''
+tags: []
+notes: Fast precision strain gauge SLICE for BREAD using instrumentation amplifier
+  and external ADC.

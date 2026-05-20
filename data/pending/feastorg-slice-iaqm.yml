@@ -1,0 +1,17 @@
+id: feastorg-slice-iaqm
+name: Slice_IAQM
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/Slice_IAQM
+links:
+  issues: https://github.com/feastorg/Slice_IAQM/issues
+  docs: ''
+tags: []
+notes: Industrial Air Quaulity Monitoring Slice for BREAD.

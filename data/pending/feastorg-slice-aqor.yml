@@ -1,0 +1,17 @@
+id: feastorg-slice-aqor
+name: Slice_AQOR
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/Slice_AQOR
+links:
+  issues: https://github.com/feastorg/Slice_AQOR/issues
+  docs: ''
+tags: []
+notes: Aqueous ORP probe SLICE for BREAD.

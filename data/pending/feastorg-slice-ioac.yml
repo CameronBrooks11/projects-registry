@@ -1,0 +1,18 @@
+id: feastorg-slice-ioac
+name: Slice_IOAC
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/Slice_IOAC
+links:
+  issues: https://github.com/feastorg/Slice_IOAC/issues
+  docs: ''
+tags: []
+notes: Mixed analog and digital I/O slice with protected inputs, buffered outputs,
+  and basic control interfaces.

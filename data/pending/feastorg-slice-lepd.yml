@@ -1,0 +1,17 @@
+id: feastorg-slice-lepd
+name: Slice_LEPD
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/Slice_LEPD
+links:
+  issues: https://github.com/feastorg/Slice_LEPD/issues
+  docs: ''
+tags: []
+notes: LED-PD Photometer Slice for BREAD

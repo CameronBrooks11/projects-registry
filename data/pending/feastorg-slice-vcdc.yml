@@ -1,0 +1,17 @@
+id: feastorg-slice-vcdc
+name: Slice_VCDC
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/Slice_VCDC
+links:
+  issues: https://github.com/feastorg/Slice_VCDC/issues
+  docs: ''
+tags: []
+notes: DC voltage and DC/AC current measurement SLICE for BREAD.
