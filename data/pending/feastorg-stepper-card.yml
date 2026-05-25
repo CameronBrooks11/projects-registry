@@ -1,0 +1,17 @@
+id: feastorg-stepper-card
+name: stepper_card
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/stepper_card
+links:
+  issues: https://github.com/feastorg/stepper_card/issues
+  docs: ''
+tags: []
+notes: Stepper Card for new stepper slice
