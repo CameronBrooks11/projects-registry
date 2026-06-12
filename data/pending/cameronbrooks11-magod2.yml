@@ -1,0 +1,17 @@
+id: cameronbrooks11-magod2
+name: MagOD2
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/MagOD2
+links:
+  issues: https://github.com/CameronBrooks11/MagOD2/issues
+  docs: ''
+tags: []
+notes: Magnetic Optical Density meter - fork
