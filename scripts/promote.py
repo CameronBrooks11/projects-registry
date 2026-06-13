@@ -126,14 +126,38 @@ def audit() -> None:
             print(f"  {stem:<45}  [{flags}]  {notes}")
 
 
+def batch_promote() -> int:
+    """Promote every pending item that passes schema validation."""
+    ids = [f.stem for f in sorted(PENDING_DIR.glob("*.yml")) if not f.stem.startswith("_")]
+    if not ids:
+        print("No pending items found.")
+        return 0
+    print(f"Attempting to promote {len(ids)} pending items...")
+    errors = promote(ids)
+    promoted = len(ids) - errors
+    print(f"\nPromoted {promoted} of {len(ids)} item(s)")
+    return errors
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Promote pending projects or audit pending quality")
     parser.add_argument("ids", nargs="*", metavar="ID", help="IDs to promote")
     parser.add_argument("--audit", action="store_true", help="Report pending file quality")
+    parser.add_argument(
+        "--batch",
+        action="store_true",
+        help="Promote all pending items that pass schema validation",
+    )
     args = parser.parse_args()
 
     if args.audit:
         audit()
+        return
+
+    if args.batch:
+        errors = batch_promote()
+        if errors:
+            sys.exit(1)
         return
 
     if not args.ids:
