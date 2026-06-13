@@ -24,3 +24,14 @@ dist/
 # Generated dataset files (produced by build.py)
 site/.vitepress/theme/projects-index.json
 site/.vitepress/theme/pending-index.json
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pre-commit
+.pre-commit-cache/
+
+# Editor
+.vscode/settings.json
