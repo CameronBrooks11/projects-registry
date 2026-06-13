@@ -14,5 +14,4 @@ links:
   issues: https://github.com/FEASTorg/linux-wire/issues
   docs: ''
 tags: []
-notes: linux-wire is a minimal Linux-native I²C library that mirrors Arduino’s Wire
-  API.
+notes: linux-wire is a minimal Linux-native I2C library that mirrors Arduino's Wire API.
