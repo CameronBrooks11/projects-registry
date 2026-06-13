@@ -68,8 +68,22 @@ def gh_paged(url, session: requests.Session):
         time.sleep(0.2)  # be gentle
 
 
-def load_existing_urls():
-    urls = set()
+def load_existing_ids() -> set[str]:
+    """Return the set of all project ids already in projects/ or pending/."""
+    ids: set[str] = set()
+    for d in [PROJECTS_DIR, PENDING_DIR]:
+        if not d.exists():
+            continue
+        for f in d.glob("*.yml"):
+            if f.stem.startswith("_"):
+                continue
+            ids.add(f.stem)
+    return ids
+
+
+def load_existing_urls() -> set[str]:
+    """Return all repo URLs already tracked, normalised to lowercase."""
+    urls: set[str] = set()
     for d in [PROJECTS_DIR, PENDING_DIR]:
         if not d.exists():
             continue
@@ -79,7 +93,7 @@ def load_existing_urls():
                 for repo in y.get("repos", []):
                     u = repo.get("url")
                     if u:
-                        urls.add(u)
+                        urls.add(u.lower())
             except Exception:
                 pass
     return urls
@@ -126,7 +140,8 @@ def main():
     defaults = cfg.get("defaults", {})
     sources = cfg.get("sources", [])
     template = load_yaml(TEMPLATE_FILE)
-    existing = load_existing_urls()
+    existing_urls = load_existing_urls()
+    existing_ids = load_existing_ids()
     new_files = []
 
     for src in sources:
@@ -160,10 +175,12 @@ def main():
             # blacklist check (by name or full URL)
             if rname in blacklist or html.lower() in blacklist:
                 continue
-            if html in existing:
+            if html.lower() in existing_urls:
                 continue
 
             data = repo_to_pending(repo, template, name)
+            if data["id"] in existing_ids:
+                continue
             out = PENDING_DIR / f"{data['id']}.yml"
             if out.exists():
                 continue
