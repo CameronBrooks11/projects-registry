@@ -7,7 +7,10 @@ export default defineConfig({
   srcDir: '.',
   base: process.env.GITHUB_ACTIONS ? '/projects-registry/' : '/',
   themeConfig: {
-    nav: [{ text: 'Home', link: '/' }],
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'About', link: '/about' },
+    ],
   },
   vite: {
     // Allow importing JSON built into /dist from the repo root
