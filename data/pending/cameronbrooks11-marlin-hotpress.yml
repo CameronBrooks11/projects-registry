@@ -1,0 +1,17 @@
+id: cameronbrooks11-marlin-hotpress
+name: Marlin_HotPress
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/Marlin_HotPress
+links:
+  issues: https://github.com/CameronBrooks11/Marlin_HotPress/issues
+  docs: https://github.com/MarlinFirmware/Marlin
+tags: []
+notes: Marlin firmware configured for OS heat press machine
