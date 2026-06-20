@@ -1,0 +1,20 @@
+id: cameronbrooks11-hpr-flight-computer
+name: HPR-Flight-Computer
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/HPR-Flight-Computer
+links:
+  issues: https://github.com/CameronBrooks11/HPR-Flight-Computer/issues
+  docs: ''
+tags: []
+notes: Fork. A flight computer for high-powered rockets based on the Teensy platform.  4
+  programmable pyro outputs, Mach immune flight events, air-start &  two-stage capable
+  w/ tilt-sensing safety features, GPS & live telemetry.  High-rate data logging at
+  1000 samples per second.  4.0in x 1.25in x 0.5in fits in a 38mm tube coupler.
