@@ -1,0 +1,18 @@
+id: cameronbrooks11-openscad-web-vscode
+name: openscad-web-vscode
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/openscad-web-vscode
+links:
+  issues: https://github.com/CameronBrooks11/openscad-web-vscode/issues
+  docs: ''
+tags: []
+notes: 'VS Code extension: preview OpenSCAD geometry (OFF) in a webview — consumes
+  the openscad-web distributable viewer + L0 protocol.'
