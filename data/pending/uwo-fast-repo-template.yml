@@ -1,0 +1,17 @@
+id: uwo-fast-repo-template
+name: repo-template
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/repo-template
+links:
+  issues: https://github.com/uwo-fast/repo-template/issues
+  docs: ''
+tags: []
+notes: Minimal starter template for FAST open-source hardware and software projects.
