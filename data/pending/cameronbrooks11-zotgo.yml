@@ -1,0 +1,17 @@
+id: cameronbrooks11-zotgo
+name: zotgo
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/zotgo
+links:
+  issues: https://github.com/CameronBrooks11/zotgo/issues
+  docs: ''
+tags: []
+notes: ''
