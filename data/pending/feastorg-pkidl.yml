@@ -1,0 +1,17 @@
+id: feastorg-pkidl
+name: pkidl
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/pkidl
+links:
+  issues: https://github.com/feastorg/pkidl/issues
+  docs: ''
+tags: []
+notes: PKiDL is a library that lets you design electronic circuit boards using Python.
