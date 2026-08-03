@@ -1,0 +1,19 @@
+id: cameronbrooks11-partspec
+name: partspec
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/partspec
+links:
+  issues: https://github.com/CameronBrooks11/partspec/issues
+  docs: ''
+tags: []
+notes: Verify CAD-as-code parts against declared engineering intent. Engine-neutral
+  across OpenSCAD, build123d and CadQuery — reports what it proved, what it could
+  not, and never lets silence read as success.
