@@ -1,0 +1,18 @@
+id: uwo-fast-gb3dpe-pellet-system
+name: gb3dpe-pellet-system
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/gb3dpe-pellet-system
+links:
+  issues: https://github.com/uwo-fast/gb3dpe-pellet-system/issues
+  docs: ''
+tags: []
+notes: Bulk pellet feed system, mounts, and operating docs for the GreenBoy3D pellet
+  extruder on a Prusa MK3S.
