@@ -1,0 +1,17 @@
+id: uwo-fast-modix-community-resources
+name: modix-community-resources
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/modix-community-resources
+links:
+  issues: https://github.com/uwo-fast/modix-community-resources/issues
+  docs: ''
+tags: []
+notes: ''
