@@ -1,0 +1,18 @@
+id: cameronbrooks11-scadbatch
+name: scadbatch
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/scadbatch
+links:
+  issues: https://github.com/CameronBrooks11/scadbatch/issues
+  docs: ''
+tags: []
+notes: Automates the batch export of STL models from OpenSCAD using parameter files
+  (CSV/JSON) with CLI and GUI support.
