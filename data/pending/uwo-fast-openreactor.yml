@@ -1,0 +1,19 @@
+id: uwo-fast-openreactor
+name: openreactor
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/openreactor
+links:
+  issues: https://github.com/uwo-fast/openreactor/issues
+  docs: ''
+tags: []
+notes: 'Monitor and control lab-scale reactors from a web interface: log sensors,
+  run temperature, mixing and dosing control, and record experiments. Raspberry Pi
+  over I2C.'
