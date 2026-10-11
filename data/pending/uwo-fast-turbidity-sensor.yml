@@ -1,0 +1,17 @@
+id: uwo-fast-turbidity-sensor
+name: turbidity-sensor
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/turbidity-sensor
+links:
+  issues: https://github.com/uwo-fast/turbidity-sensor/issues
+  docs: ''
+tags: []
+notes: ''

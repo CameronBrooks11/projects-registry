@@ -1,0 +1,18 @@
+id: uwo-fast-syringe-actuator
+name: syringe-actuator
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/syringe-actuator
+links:
+  issues: https://github.com/uwo-fast/syringe-actuator/issues
+  docs: ''
+tags: []
+notes: A 3D printed crank that drives a syringe plunger back and forth from a continuously
+  running gearmotor.
