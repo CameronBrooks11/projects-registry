@@ -1,0 +1,18 @@
+id: feastorg-bread-slice-core
+name: bread-slice-core
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/bread-slice-core
+links:
+  issues: https://github.com/feastorg/bread-slice-core/issues
+  docs: ''
+tags: []
+notes: 'Shared firmware mechanisms for BREADS Slices: status LED, e-stop sampling,
+  watchdog latch, strict parsing'

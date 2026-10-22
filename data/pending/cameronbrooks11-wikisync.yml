@@ -1,0 +1,18 @@
+id: cameronbrooks11-wikisync
+name: wikisync
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/wikisync
+links:
+  issues: https://github.com/CameronBrooks11/wikisync/issues
+  docs: ''
+tags: []
+notes: 'CLI to work with MediaWiki/Appropedia pages locally: pull pages as wikitext,
+  edit, diff, and push back under your account.'
