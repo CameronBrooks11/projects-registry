@@ -1,0 +1,18 @@
+id: feastorg-lmd18200
+name: lmd18200
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/lmd18200
+links:
+  issues: https://github.com/feastorg/lmd18200/issues
+  docs: ''
+tags: []
+notes: Arduino library for controlling the Texas Instruments LMD18200 motor driver
+  with speed control, braking, and sensor monitoring.

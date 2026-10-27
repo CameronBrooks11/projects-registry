@@ -1,0 +1,18 @@
+id: feastorg-l298n
+name: l298n
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/l298n
+links:
+  issues: https://github.com/feastorg/l298n/issues
+  docs: ''
+tags: []
+notes: Arduino library for controlling DC motors and steppers using the L298N motor
+  driver module.
