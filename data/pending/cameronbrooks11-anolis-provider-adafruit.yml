@@ -1,0 +1,18 @@
+id: cameronbrooks11-anolis-provider-adafruit
+name: anolis-provider-adafruit
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/anolis-provider-adafruit
+links:
+  issues: https://github.com/CameronBrooks11/anolis-provider-adafruit/issues
+  docs: ''
+tags: []
+notes: Anolis device provider for Adafruit hardware, built on Adafruit's CircuitPython
+  drivers.
