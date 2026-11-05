@@ -1,0 +1,18 @@
+id: cameronbrooks11-anolis-provider-hello-cpp
+name: anolis-provider-hello-cpp
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/anolis-provider-hello-cpp
+links:
+  issues: https://github.com/CameronBrooks11/anolis-provider-hello-cpp/issues
+  docs: ''
+tags: []
+notes: 'An Anolis provider generated from anolis-provider-template-cpp on a personal
+  account: proof that the template builds and releases outside anolishq'
