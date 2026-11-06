@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/CameronBrooks11/screw-switch
+  url: https://github.com/burnoutlabs/screw-switch
 links:
-  issues: https://github.com/CameronBrooks11/screw-switch/issues
+  issues: https://github.com/burnoutlabs/screw-switch/issues
   docs: ''
 tags: []
 notes: Screw-actuated safety switch for arming high-power rocket electronics.
