@@ -1,5 +1,5 @@
 id: cameronbrooks11-hpr-flight-computer
-name: HPR-Flight-Computer
+name: hpr-flight-computer
 type: system
 implementation:
 - software
@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/burnoutlabs/HPR-Flight-Computer
+  url: https://github.com/burnoutlabs/hpr-flight-computer
 links:
-  issues: https://github.com/burnoutlabs/HPR-Flight-Computer/issues
+  issues: https://github.com/burnoutlabs/hpr-flight-computer/issues
   docs: ''
 tags: []
 notes: Restructured copy of SparkyVT's HPR Rocket Flight Computer V4.6. A flight
