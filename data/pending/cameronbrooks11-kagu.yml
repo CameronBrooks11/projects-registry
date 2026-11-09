@@ -1,0 +1,17 @@
+id: cameronbrooks11-kagu
+name: kagu
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/kagu
+links:
+  issues: https://github.com/CameronBrooks11/kagu/issues
+  docs: ''
+tags: []
+notes: ''
