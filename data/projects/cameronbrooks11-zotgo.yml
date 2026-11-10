@@ -12,6 +12,7 @@ repos:
   url: https://github.com/CameronBrooks11/zotgo
 links:
   issues: https://github.com/CameronBrooks11/zotgo/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/zotgo/
 tags: []
-notes: ''
+notes: A single, zero-dependency Go CLI (zot) that drives a running Zotero 7+ library
+  over its HTTP Local API.
