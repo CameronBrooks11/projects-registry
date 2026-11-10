@@ -12,6 +12,6 @@ repos:
   url: https://github.com/CameronBrooks11/transistor-tester-m12864
 links:
   issues: https://github.com/CameronBrooks11/transistor-tester-m12864/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/transistor-tester-m12864/
 tags: []
-notes: Resources for the M12854 DIY transistor tester kit.
+notes: Resources for the M12864 DIY transistor tester kit.
