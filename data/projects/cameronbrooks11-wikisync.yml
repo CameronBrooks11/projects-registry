@@ -12,7 +12,7 @@ repos:
   url: https://github.com/CameronBrooks11/wikisync
 links:
   issues: https://github.com/CameronBrooks11/wikisync/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/wikisync/
 tags: []
 notes: 'CLI to work with MediaWiki/Appropedia pages locally: pull pages as wikitext,
   edit, diff, and push back under your account.'

@@ -14,6 +14,7 @@ repos:
     url: https://github.com/CameronBrooks11/tessella
 links:
   issues: https://github.com/CameronBrooks11/tessella/issues
+  docs: https://cameronbrooks11.github.io/tessella/
 tags:
   - OpenSCAD
   - tessellation

@@ -12,7 +12,7 @@ repos:
   url: https://github.com/CameronBrooks11/scadbatch
 links:
   issues: https://github.com/CameronBrooks11/scadbatch/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/scadbatch/
 tags: []
-notes: Automates the batch export of STL models from OpenSCAD using parameter files
-  (CSV/JSON) with CLI and GUI support.
+notes: Batch export models from parametric OpenSCAD designs using CSV or Customizer
+  JSON parameter sets. CLI, GUI and Python API.

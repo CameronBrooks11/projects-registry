@@ -12,6 +12,6 @@ repos:
   url: https://github.com/CameronBrooks11/uniTube
 links:
   issues: https://github.com/CameronBrooks11/uniTube/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/uniTube/
 tags: []
 notes: The Universal Tube Library for OpenSCAD.
