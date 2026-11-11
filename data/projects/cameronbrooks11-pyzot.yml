@@ -15,4 +15,5 @@ links:
   docs: https://cameronbrooks11.github.io/pyzot/
 tags: []
 notes: A read-only-first command-line interface for your local Zotero library. MIT
-  source import of the PyPI package zotcli (0.3.0), rebranded to pyzot.
+  source import of the PyPI package zotcli (0.3.0), rebranded to pyzot. In maintenance;
+  superseded by zotgo.
