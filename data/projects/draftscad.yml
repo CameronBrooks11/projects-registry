@@ -12,7 +12,7 @@ repos:
   url: https://github.com/CameronBrooks11/DraftSCAD
 links:
   issues: https://github.com/CameronBrooks11/DraftSCAD/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/DraftSCAD/
 tags: []
 notes: An OpenSCAD library for creating detailed, dimensioned engineering drawings,
   featuring modules for lines, dimensions, hole centers, leader lines, and customizable

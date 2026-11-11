@@ -12,7 +12,7 @@ repos:
   url: https://github.com/CameronBrooks11/scadman
 links:
   issues: https://github.com/CameronBrooks11/scadman/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/scadman/
 tags: []
 notes: A project-oriented package and dependency manager for OpenSCAD libraries, scripts,
   and reusable design assets.
