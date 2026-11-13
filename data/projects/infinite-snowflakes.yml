@@ -1,0 +1,24 @@
+id: infinite-snowflakes
+name: Infinite Snowflakes
+type: component
+implementation:
+  - software
+artifact:
+  - design
+target:
+  - pc
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/infinite-snowflakes
+links:
+  issues: https://github.com/CameronBrooks11/infinite-snowflakes/issues
+  docs: ""
+tags:
+  - OpenSCAD
+  - 3d-printing
+  - snowflake
+  - ornament
+  - STL
+notes: Seed-generated snowflake decorations in OpenSCAD, with rings for hanging and a link to join them; derived from Mariano Lambir's Infinite Snowflakes.
