@@ -1,0 +1,17 @@
+id: cameronbrooks11-pyside6-gui-template
+name: pyside6-gui-template
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/pyside6-gui-template
+links:
+  issues: https://github.com/CameronBrooks11/pyside6-gui-template/issues
+  docs: ''
+tags: []
+notes: Flat, frameless desktop GUI template built with PySide6 and Qt Designer
