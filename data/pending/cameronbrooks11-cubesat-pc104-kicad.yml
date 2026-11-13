@@ -1,0 +1,18 @@
+id: cameronbrooks11-cubesat-pc104-kicad
+name: cubesat-pc104-kicad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/cubesat-pc104-kicad
+links:
+  issues: https://github.com/CameronBrooks11/cubesat-pc104-kicad/issues
+  docs: ''
+tags: []
+notes: KiCad parts and boards for CubeSat modules on the PC/104 form factor, from
+  SPEL's Payload-PC104. Work in progress.
