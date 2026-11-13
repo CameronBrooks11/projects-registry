@@ -6,7 +6,7 @@ implementation:
 artifact: []
 target: []
 maturity: prototype
-status: active
+status: archived
 repos:
 - host: github
   url: https://github.com/CameronBrooks11/GeoGrow
@@ -14,4 +14,4 @@ links:
   issues: https://github.com/CameronBrooks11/GeoGrow/issues
   docs: ''
 tags: []
-notes: ''
+notes: Recursive trees and flower shapes in OpenSCAD. The tree work continues in L-System-SCAD.
