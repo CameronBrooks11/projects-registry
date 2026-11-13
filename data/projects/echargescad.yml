@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/CameronBrooks11/eChargeSCAD
+  url: https://github.com/burnoutlabs/eChargeSCAD
 links:
-  issues: https://github.com/CameronBrooks11/eChargeSCAD/issues
+  issues: https://github.com/burnoutlabs/eChargeSCAD/issues
   docs: ''
 tags: []
 notes: OpenSCAD script for the calculation and generation of ejection charges
