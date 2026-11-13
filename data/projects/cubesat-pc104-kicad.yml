@@ -1,4 +1,4 @@
-id: cameronbrooks11-cubesat-pc104-kicad
+id: cubesat-pc104-kicad
 name: cubesat-pc104-kicad
 type: system
 implementation:
@@ -14,5 +14,5 @@ links:
   issues: https://github.com/CameronBrooks11/cubesat-pc104-kicad/issues
   docs: ''
 tags: []
-notes: KiCad parts and boards for CubeSat modules on the PC/104 form factor, from
-  SPEL's Payload-PC104. Work in progress.
+notes: KiCad library, project template and stack breakout board for CubeSat Kit
+  modules on the PC/104 form factor, from SPEL's Payload-PC104.
