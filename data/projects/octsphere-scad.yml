@@ -1,0 +1,17 @@
+id: octsphere-scad
+name: octsphere-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/octsphere-scad
+links:
+  issues: https://github.com/CameronBrooks11/octsphere-scad/issues
+  docs: ''
+tags: []
+notes: Geodesic octahedral sphere for OpenSCAD, a drop-in sphere() with even triangles and flat polygon equators; from Amatulic's CC0 octsphere.
