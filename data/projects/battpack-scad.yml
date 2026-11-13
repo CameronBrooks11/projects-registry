@@ -1,0 +1,17 @@
+id: battpack-scad
+name: battpack-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/battpack-scad
+links:
+  issues: https://github.com/CameronBrooks11/battpack-scad/issues
+  docs: ''
+tags: []
+notes: Snap-together holders for cylindrical battery cells in OpenSCAD, with a box and cover for the pack.
