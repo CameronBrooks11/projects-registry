@@ -1,0 +1,17 @@
+id: freecad-resources
+name: freecad-resources
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/freecad-resources
+links:
+  issues: https://github.com/CameronBrooks11/freecad-resources/issues
+  docs: ''
+tags: []
+notes: Macros, a colour scheme and a spreadsheet template for FreeCAD
