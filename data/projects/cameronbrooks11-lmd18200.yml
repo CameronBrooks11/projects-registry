@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/CameronBrooks11/lmd18200
+  url: https://github.com/feastorg/lmd18200
 links:
-  issues: https://github.com/CameronBrooks11/lmd18200/issues
+  issues: https://github.com/feastorg/lmd18200/issues
   docs: ''
 tags: []
 notes: Arduino library for controlling the Texas Instruments LMD18200 motor driver

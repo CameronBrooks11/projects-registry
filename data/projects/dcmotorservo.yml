@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/CameronBrooks11/DCMotorServo
+  url: https://github.com/feastorg/dcmotorservo
 links:
-  issues: https://github.com/CameronBrooks11/DCMotorServo/issues
+  issues: https://github.com/feastorg/dcmotorservo/issues
   docs: ''
 tags: []
 notes: An Arduino Library for controlling DC motors with rotary encoders.
