@@ -1,10 +1,11 @@
 id: feastorg-pkidl
 name: pkidl
-type: system
+type: component
 implementation:
 - software
 artifact: []
-target: []
+target:
+- pc
 maturity: prototype
 status: active
 repos:

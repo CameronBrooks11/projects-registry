@@ -8,8 +8,8 @@ maturity: prototype
 status: active
 repos:
   - host: github
-    url: https://github.com/CameronBrooks11/L298N_Arduino
+    url: https://github.com/feastorg/l298n
 links:
-  issues: https://github.com/CameronBrooks11/L298N_Arduino/issues
+  issues: https://github.com/feastorg/l298n/issues
 tags: [arduino, motor-driver, dc-motor, h-bridge, l298n, c++]
 notes: Arduino library for DC motors and steppers using L298N; GPL-3.0.
