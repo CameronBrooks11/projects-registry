@@ -1,0 +1,18 @@
+id: cameronbrooks11-solidworks-cam-grbl-post
+name: solidworks-cam-grbl-post
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/solidworks-cam-grbl-post
+links:
+  issues: https://github.com/CameronBrooks11/solidworks-cam-grbl-post/issues
+  docs: ''
+tags: []
+notes: SOLIDWORKS CAM / CAMWorks post processor for Grbl 1.1 and grblHAL routers such
+  as the LongMill, with a checker for posted G-code.

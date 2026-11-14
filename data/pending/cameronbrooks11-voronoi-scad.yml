@@ -1,0 +1,18 @@
+id: cameronbrooks11-voronoi-scad
+name: voronoi-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/voronoi-scad
+links:
+  issues: https://github.com/CameronBrooks11/voronoi-scad/issues
+  docs: ''
+tags: []
+notes: 'Voronoi patterns in OpenSCAD: rounded cells around placed or seeded sites,
+  for perforated panels, tiles and polygon fills.'
