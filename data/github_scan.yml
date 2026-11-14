@@ -4,6 +4,8 @@ sources:
     include_forks: false
     include_archived: true
     blacklist:
+      - anolis-provider-hello-python
+      - anolis-provider-hello-cpp
       - Cams-Nexus
 
   - type: org
