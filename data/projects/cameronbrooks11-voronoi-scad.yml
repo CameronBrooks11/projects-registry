@@ -1,11 +1,12 @@
 id: cameronbrooks11-voronoi-scad
 name: voronoi-scad
-type: system
+type: component
 implementation:
 - software
-artifact: []
+artifact:
+- design
 target: []
-maturity: prototype
+maturity: beta
 status: active
 repos:
 - host: github

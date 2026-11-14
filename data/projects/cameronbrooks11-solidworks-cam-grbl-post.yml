@@ -1,6 +1,6 @@
 id: cameronbrooks11-solidworks-cam-grbl-post
 name: solidworks-cam-grbl-post
-type: system
+type: component
 implementation:
 - software
 artifact: []
