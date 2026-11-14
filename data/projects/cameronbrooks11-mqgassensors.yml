@@ -1,10 +1,11 @@
 id: cameronbrooks11-mqgassensors
 name: MQGasSensors
-type: system
+type: component
 implementation:
-- software
+- firmware
 artifact: []
-target: []
+target:
+- mcu
 maturity: prototype
 status: active
 repos:

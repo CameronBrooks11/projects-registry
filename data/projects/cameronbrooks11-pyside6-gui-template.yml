@@ -1,10 +1,12 @@
 id: cameronbrooks11-pyside6-gui-template
 name: pyside6-gui-template
-type: system
+type: component
 implementation:
 - software
-artifact: []
-target: []
+artifact:
+- documentation
+target:
+- pc
 maturity: prototype
 status: active
 repos:

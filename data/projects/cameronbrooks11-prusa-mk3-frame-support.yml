@@ -1,12 +1,13 @@
 id: cameronbrooks11-prusa-mk3-frame-support
 name: prusa-mk3-frame-support
-type: system
+type: part
 implementation:
-- software
-artifact: []
+- hardware
+artifact:
+- design
 target: []
-maturity: prototype
-status: active
+maturity: production
+status: maintenance
 repos:
 - host: github
   url: https://github.com/CameronBrooks11/prusa-mk3-frame-support

@@ -1,9 +1,10 @@
 id: cameronbrooks11-tube-bender
 name: tube-bender
-type: system
+type: machine
 implementation:
-- software
-artifact: []
+- hardware
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
@@ -14,4 +15,4 @@ links:
   issues: https://github.com/CameronBrooks11/tube-bender/issues
   docs: ''
 tags: []
-notes: ''
+notes: A parametric manual rotary-draw tube bender, from 1/8 in to 2 in outside diameter.
