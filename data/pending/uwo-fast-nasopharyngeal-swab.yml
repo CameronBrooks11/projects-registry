@@ -1,0 +1,17 @@
+id: uwo-fast-nasopharyngeal-swab
+name: nasopharyngeal-swab
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/nasopharyngeal-swab
+links:
+  issues: https://github.com/uwo-fast/nasopharyngeal-swab/issues
+  docs: ''
+tags: []
+notes: Open Source Nasopharyngeal Swab and UV Curing System

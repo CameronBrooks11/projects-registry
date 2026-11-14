@@ -1,0 +1,18 @@
+id: uwo-fast-uv-curing-box
+name: uv-curing-box
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/uv-curing-box
+links:
+  issues: https://github.com/uwo-fast/uv-curing-box/issues
+  docs: ''
+tags: []
+notes: 'Modular UV curing box for SLA-printed parts: KiCad LED boards and printable
+  brackets, from the open source nasopharyngeal swab project'
