@@ -21,6 +21,7 @@ sources:
     include_forks: false
     include_archived: false
     blacklist:
+      - repo-template
       - placeholder-repo-name
 
 # global defaults

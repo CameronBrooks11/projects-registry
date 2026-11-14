@@ -1,0 +1,25 @@
+id: uwo-fast-turbidity-sensor
+name: turbidity-sensor
+type: component
+implementation:
+- software
+- firmware
+- hardware
+artifact:
+- analysis
+- design
+target:
+- mcu
+- pc
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/turbidity-sensor
+links:
+  issues: https://github.com/uwo-fast/turbidity-sensor/issues
+  docs: ''
+tags: []
+notes: 'Open tools to model, calibrate and evaluate Amphenol TSW-10 and TST-10 turbidity
+  sensors: a C library, a calibration CLI, acquisition and analysis tools, Arduino
+  examples and a printable flow-through housing.'

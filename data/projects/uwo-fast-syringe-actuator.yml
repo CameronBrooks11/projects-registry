@@ -1,9 +1,10 @@
 id: uwo-fast-syringe-actuator
 name: syringe-actuator
-type: system
+type: module
 implementation:
-- software
-artifact: []
+- hardware
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
