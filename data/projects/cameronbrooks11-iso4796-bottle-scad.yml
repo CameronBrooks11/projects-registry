@@ -1,9 +1,10 @@
 id: cameronbrooks11-iso4796-bottle-scad
 name: iso4796-bottle-scad
-type: system
+type: part
 implementation:
-- software
-artifact: []
+- hardware
+artifact:
+- design
 target: []
 maturity: prototype
 status: active

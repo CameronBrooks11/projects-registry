@@ -1,10 +1,11 @@
 id: cameronbrooks11-anolis-provider-adafruit
 name: anolis-provider-adafruit
-type: system
+type: module
 implementation:
 - software
 artifact: []
-target: []
+target:
+- sbc
 maturity: prototype
 status: active
 repos:

@@ -1,9 +1,10 @@
 id: cameronbrooks11-feet
 name: feet
-type: system
+type: part
 implementation:
-- software
-artifact: []
+- hardware
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
@@ -14,4 +15,5 @@ links:
   issues: https://github.com/CameronBrooks11/feet/issues
   docs: ''
 tags: []
-notes: ''
+notes: Parametric OpenSCAD models of chicken, dog and human feet, as self-contained
+  teaching and visualization models.
