@@ -1,11 +1,12 @@
 id: cubesat-pc104-kicad
 name: cubesat-pc104-kicad
-type: system
+type: component
 implementation:
-- software
-artifact: []
+- hardware
+artifact:
+- design
 target: []
-maturity: prototype
+maturity: beta
 status: active
 repos:
 - host: github
@@ -14,5 +15,6 @@ links:
   issues: https://github.com/CameronBrooks11/cubesat-pc104-kicad/issues
   docs: ''
 tags: []
-notes: KiCad library, project template and stack breakout board for CubeSat Kit
-  modules on the PC/104 form factor, from SPEL's Payload-PC104.
+notes: KiCad 10 library, project templates and a bus breakout board for CubeSat
+  Kit modules on the PC/104 form factor, generated from Pumpkin's 810-00253 B2
+  drawings. v1.0.0 released; CERN-OHL-P-2.0.
