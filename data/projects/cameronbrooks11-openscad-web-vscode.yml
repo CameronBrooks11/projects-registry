@@ -1,10 +1,11 @@
 id: cameronbrooks11-openscad-web-vscode
 name: openscad-web-vscode
-type: system
+type: component
 implementation:
 - software
 artifact: []
-target: []
+target:
+- pc
 maturity: prototype
 status: active
 repos:

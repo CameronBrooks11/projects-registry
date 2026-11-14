@@ -1,10 +1,12 @@
 id: cameronbrooks11-partspec
 name: partspec
-type: system
+type: component
 implementation:
 - software
-artifact: []
-target: []
+artifact:
+- test
+target:
+- pc
 maturity: prototype
 status: active
 repos:
