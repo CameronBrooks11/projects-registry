@@ -1,5 +1,5 @@
-id: christmasnameornament
-name: ChristmasNameOrnament
+id: christmas-name-ornament
+name: Christmas Name Ornament
 type: system
 implementation:
 - software
@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/CameronBrooks11/ChristmasNameOrnament
+  url: https://github.com/CameronBrooks11/christmas-name-ornament
 links:
-  issues: https://github.com/CameronBrooks11/ChristmasNameOrnament/issues
+  issues: https://github.com/CameronBrooks11/christmas-name-ornament/issues
   docs: ''
 tags: []
 notes: Customizable Christmas ornament generator with options for text, fonts, snowflake
