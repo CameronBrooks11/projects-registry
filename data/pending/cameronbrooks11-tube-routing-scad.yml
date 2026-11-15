@@ -1,0 +1,17 @@
+id: cameronbrooks11-tube-routing-scad
+name: tube-routing-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/tube-routing-scad
+links:
+  issues: https://github.com/CameronBrooks11/tube-routing-scad/issues
+  docs: https://cameronbrooks11.github.io/uniTube/
+tags: []
+notes: The Universal Tube Library for OpenSCAD.
