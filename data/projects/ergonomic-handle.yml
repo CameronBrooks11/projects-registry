@@ -1,9 +1,10 @@
 id: ergonomic-handle
 name: ergonomic-handle
-type: system
+type: part
 implementation:
 - software
-artifact: []
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
@@ -12,7 +13,7 @@ repos:
   url: https://github.com/CameronBrooks11/ergonomic-handle
 links:
   issues: https://github.com/CameronBrooks11/ergonomic-handle/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/ergonomic-handle/
 tags: []
-notes: This is an OpenSCAD library to generate an ergonomic handle that distributes
-  hand contact pressure as evenly as possible.
+notes: An OpenSCAD handle that spreads hand contact pressure evenly, scaled to any hand,
+  continuing Alex Matulich's design from published hand studies. CC BY 4.0.
