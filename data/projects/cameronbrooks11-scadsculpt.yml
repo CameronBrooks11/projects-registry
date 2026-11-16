@@ -1,9 +1,10 @@
 id: cameronbrooks11-scadsculpt
 name: scadsculpt
-type: system
+type: part
 implementation:
 - software
-artifact: []
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
@@ -12,6 +13,7 @@ repos:
   url: https://github.com/CameronBrooks11/scadsculpt
 links:
   issues: https://github.com/CameronBrooks11/scadsculpt/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/scadsculpt/
 tags: []
-notes: Some random sculptures in OpenSCAD.
+notes: Generative sculptures in OpenSCAD, from closed-form curves swept into tubes and
+  twisted surfaces, each checked to render as one solid on the bed. MIT.
