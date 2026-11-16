@@ -107,6 +107,39 @@ def validate_all(schema: dict, directory: Path, strict: bool = True) -> int:
     return errors_total
 
 
+def repo_urls(directory: Path) -> dict[str, str]:
+    """{lower-cased repo URL: file name} for every entry in a directory."""
+    urls: dict[str, str] = {}
+    for yml in sorted(directory.glob("*.yml")):
+        if yml.stem.startswith("_"):
+            continue
+        try:
+            data = yaml.safe_load(yml.read_text(encoding="utf-8")) or {}
+        except Exception:
+            continue  # validate_all reports the parse error
+        for repo in data.get("repos") or []:
+            url = (repo.get("url") or "").lower().rstrip("/")
+            if url:
+                urls.setdefault(url, yml.name)
+    return urls
+
+
+def pending_already_tracked() -> int:
+    """Fail on a pending entry for a repo a project already lists.
+
+    The scan skips repos it already tracks, but a repo renamed while the
+    scan runs comes back under its new URL. Runs even with --skip-pending,
+    since CI skips the rest of the pending checks.
+    """
+    tracked = repo_urls(PROJECTS_DIR)
+    errors = 0
+    for url, name in repo_urls(PENDING_DIR).items():
+        if url in tracked:
+            print(f"[FAIL] pending/{name}: repo {url} is already listed by projects/{tracked[url]}")
+            errors += 1
+    return errors
+
+
 def _collect_urls(directory: Path) -> list[tuple[str, str]]:
     """Return [(filename, url), ...] for all non-empty URLs in a directory."""
     results = []
@@ -162,6 +195,7 @@ def main():
 
     print("=== Validating projects/ ===")
     errors = validate_all(schema, PROJECTS_DIR, strict=True)
+    errors += pending_already_tracked()
 
     if not args.skip_pending:
         print("\n=== Validating pending/ (warn-only) ===")
