@@ -1,0 +1,17 @@
+id: cameronbrooks11-picogk-playground
+name: picogk-playground
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/picogk-playground
+links:
+  issues: https://github.com/CameronBrooks11/picogk-playground/issues
+  docs: ''
+tags: []
+notes: My repo for experimenting with PicoGK
