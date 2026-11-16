@@ -12,6 +12,7 @@ repos:
   url: https://github.com/CameronBrooks11/heat-sink-scad
 links:
   issues: https://github.com/CameronBrooks11/heat-sink-scad/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/heat-sink-scad/
 tags: []
-notes: Heat sink models in OpenSCAD.
+notes: A parametric straight-fin heat sink in OpenSCAD, sized by its outside dimensions
+  and the gap between fins, with input checks and tests. MIT.
