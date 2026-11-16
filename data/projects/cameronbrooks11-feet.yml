@@ -13,7 +13,7 @@ repos:
   url: https://github.com/CameronBrooks11/feet
 links:
   issues: https://github.com/CameronBrooks11/feet/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/feet/
 tags: []
 notes: Parametric OpenSCAD models of chicken, dog and human feet, as self-contained
-  teaching and visualization models.
+  teaching and visualization models. MIT.

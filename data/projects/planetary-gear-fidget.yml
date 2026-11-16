@@ -12,6 +12,7 @@ repos:
   url: https://github.com/CameronBrooks11/planetary-gear-fidget
 links:
   issues: https://github.com/CameronBrooks11/planetary-gear-fidget/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/planetary-gear-fidget/
 tags: []
-notes: A planetary gear fidget toy made in OpenSCAD
+notes: A print-in-place planetary gear fidget toy in OpenSCAD, a sun, a ring and six
+  herringbone planets in a rounded disc. MIT rewrite of emmett's Gear Bearing idea.
