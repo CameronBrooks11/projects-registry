@@ -6,6 +6,7 @@ sources:
     blacklist:
       - anolis-provider-hello-python
       - anolis-provider-hello-cpp
+      - anolis-provider-hello-rust
       - Cams-Nexus
 
   - type: org

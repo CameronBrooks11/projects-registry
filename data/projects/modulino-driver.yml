@@ -1,10 +1,11 @@
-id: cameronbrooks11-modulino-driver
+id: modulino-driver
 name: modulino-driver
-type: system
+type: component
 implementation:
-- software
+- firmware
 artifact: []
-target: []
+target:
+- mcu
 maturity: prototype
 status: active
 repos:

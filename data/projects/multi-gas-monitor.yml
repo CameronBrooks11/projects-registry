@@ -1,4 +1,4 @@
-id: uwo-fast-multi-gas-monitor
+id: multi-gas-monitor
 name: multi-gas-monitor
 type: system
 implementation:

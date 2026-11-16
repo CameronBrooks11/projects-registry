@@ -1,9 +1,10 @@
-id: uwo-fast-uv-curing-box
+id: uv-curing-box
 name: uv-curing-box
-type: system
+type: machine
 implementation:
-- software
-artifact: []
+- hardware
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
