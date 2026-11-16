@@ -1,9 +1,10 @@
 id: cameronbrooks11-original-prusa-i3
 name: Original-Prusa-i3
-type: system
+type: machine
 implementation:
 - software
-artifact: []
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
@@ -12,6 +13,8 @@ repos:
   url: https://github.com/CameronBrooks11/Original-Prusa-i3
 links:
   issues: https://github.com/CameronBrooks11/Original-Prusa-i3/issues
-  docs: http://prusa3d.com
+  docs: ''
 tags: []
-notes: Original Prusa i3 MK2 3D printer printed parts
+notes: My working copy of Prusa Research's Original Prusa i3 MK3S printed parts (GPL), with
+  a parametric X end, a taller enclosure foot and E3D V6 hotend mockups. Not my design;
+  unaffiliated.
