@@ -1,9 +1,10 @@
 id: panel-cube-joints
 name: panel-cube-joints
-type: system
+type: part
 implementation:
 - software
-artifact: []
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
@@ -12,6 +13,7 @@ repos:
   url: https://github.com/CameronBrooks11/panel-cube-joints
 links:
   issues: https://github.com/CameronBrooks11/panel-cube-joints/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/panel-cube-joints/
 tags: []
-notes: ''
+notes: Printed connectors that screw square panels, such as circuit boards, together into
+  boxes, with a tray to stand them in, in OpenSCAD. MIT.
