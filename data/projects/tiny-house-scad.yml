@@ -14,6 +14,7 @@ repos:
     url: https://github.com/CameronBrooks11/tiny-house-scad
 links:
   issues: https://github.com/CameronBrooks11/tiny-house-scad/issues
+  docs: https://cameronbrooks11.github.io/tiny-house-scad/
 tags:
   - OpenSCAD
   - parametric
