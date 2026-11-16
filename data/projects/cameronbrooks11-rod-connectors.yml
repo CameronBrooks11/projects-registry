@@ -1,9 +1,10 @@
 id: cameronbrooks11-rod-connectors
 name: rod-connectors
-type: system
+type: part
 implementation:
 - software
-artifact: []
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
@@ -12,6 +13,7 @@ repos:
   url: https://github.com/CameronBrooks11/rod-connectors
 links:
   issues: https://github.com/CameronBrooks11/rod-connectors/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/rod-connectors/
 tags: []
-notes: Rod connectors in OpenSCAD.
+notes: Printable hubs that join round rods at any angles in OpenSCAD, each socket floored
+  and sized for its own rod. MIT.
