@@ -1,0 +1,18 @@
+id: carbon-fiber-theme
+name: carbon-fiber-theme
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/carbon-fiber-theme
+links:
+  issues: https://github.com/CameronBrooks11/carbon-fiber-theme/issues
+  docs: https://cameronbrooks11.github.io/carbon-fiber-theme/
+tags: []
+notes: A refined dark UI theme featuring carbon-fiber texture and cohesive design
+  tokens.
