@@ -1,0 +1,19 @@
+id: segmented-hose-scad
+name: segmented-hose-scad
+type: part
+implementation:
+- software
+artifact:
+- design
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/segmented-hose-scad
+links:
+  issues: https://github.com/CameronBrooks11/segmented-hose-scad/issues
+  docs: ''
+tags: []
+notes: One segment of a ball-and-socket hose for coolant and air lines, in OpenSCAD, with
+  a fit clearance and checks that the ball seats in the next socket. MIT.
