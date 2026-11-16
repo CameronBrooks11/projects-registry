@@ -1,0 +1,18 @@
+id: cameronbrooks11-screw-sorter
+name: screw-sorter
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/screw-sorter
+links:
+  issues: https://github.com/CameronBrooks11/screw-sorter/issues
+  docs: ''
+tags: []
+notes: A 3D printable mechanism for sorting screws by diameter and length. Created
+  out of dire need.
