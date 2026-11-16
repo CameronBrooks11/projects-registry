@@ -1,9 +1,10 @@
 id: parametric-calibration-objects
 name: parametric-calibration-objects
-type: system
+type: part
 implementation:
 - software
-artifact: []
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
@@ -12,7 +13,7 @@ repos:
   url: https://github.com/CameronBrooks11/parametric-calibration-objects
 links:
   issues: https://github.com/CameronBrooks11/parametric-calibration-objects/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/parametric-calibration-objects/
 tags: []
-notes: A library of calibration objects for calibration / benchmarking of your 3D
-  printer.
+notes: A library of parametric calibration objects in OpenSCAD for calibrating and
+  benchmarking a 3D printer. AGPL-3.0.
