@@ -1,11 +1,12 @@
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
-import json
-import yaml
+
 import requests
+import yaml
 from jsonschema import Draft202012Validator
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,6 +36,7 @@ def load_schema():
 def validate_all(schema: dict, directory: Path, strict: bool = True) -> int:
     validator = Draft202012Validator(schema)
     ids: set[str] = set()
+    repo_urls: dict[str, str] = {}  # lower-cased repo URL -> first file that names it
     errors_total = 0
 
     for yml in sorted(directory.glob("*.yml")):
@@ -70,6 +72,21 @@ def validate_all(schema: dict, directory: Path, strict: bool = True) -> int:
             file_errors += 1
         else:
             ids.add(pid)
+
+        # duplicate repo check: two entries for one repo list it twice (#38)
+        for repo in data.get("repos") or []:
+            url = (repo.get("url") or "").lower().rstrip("/")
+            if not url:
+                continue
+            if url in repo_urls:
+                msg = f"repo {repo['url']} is already listed by {repo_urls[url]}"
+                if strict:
+                    print(f"[FAIL] {yml.name}: {msg}")
+                    file_errors += 1
+                else:
+                    print(f"[WARN] {yml.name}: {msg}")
+            else:
+                repo_urls[url] = yml.name
 
         # schema validation
         errs = sorted(validator.iter_errors(data), key=lambda e: e.path)

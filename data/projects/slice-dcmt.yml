@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/FEASTorg/Slice_DCMT
+  url: https://github.com/feastorg/Slice_DCMT
 links:
-  issues: https://github.com/FEASTorg/Slice_DCMT/issues
+  issues: https://github.com/feastorg/Slice_DCMT/issues
   docs: https://feastorg.github.io/Slice_DCMT/
 tags: []
 notes: DC Motor Driver Carrier Slice

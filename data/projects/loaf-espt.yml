@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/FEASTorg/Loaf_ESPT
+  url: https://github.com/feastorg/Loaf_ESPT
 links:
-  issues: https://github.com/FEASTorg/Loaf_ESPT/issues
+  issues: https://github.com/feastorg/Loaf_ESPT/issues
   docs: ''
 tags: []
 notes: ESP32 Thing Plus Controller

@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/FEASTorg/Slice_RLHT
+  url: https://github.com/feastorg/Slice_RLHT
 links:
-  issues: https://github.com/FEASTorg/Slice_RLHT/issues
+  issues: https://github.com/feastorg/Slice_RLHT/issues
   docs: https://feastorg.github.io/Slice_RLHT/
 tags: []
 notes: Relay Heating Element Controller Slice for BREAD

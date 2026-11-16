@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/FEASTorg/KiCad-Simulation-Examples
+  url: https://github.com/feastorg/KiCad-Simulation-Examples
 links:
-  issues: https://github.com/FEASTorg/KiCad-Simulation-Examples/issues
+  issues: https://github.com/feastorg/KiCad-Simulation-Examples/issues
   docs: https://feastorg.github.io/kicad-simulation-examples/
 tags: []
 notes: Collection of electronic schematic examples done in KiCad, prepared for easy

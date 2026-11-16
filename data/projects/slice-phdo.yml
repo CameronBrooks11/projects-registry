@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/FEASTorg/Slice_PHDO
+  url: https://github.com/feastorg/Slice_PHDO
 links:
-  issues: https://github.com/FEASTorg/Slice_PHDO/issues
+  issues: https://github.com/feastorg/Slice_PHDO/issues
   docs: ''
 tags: []
 notes: Carrier board for the Atlas pH and Dissolved Oxygen sensors for BREAD

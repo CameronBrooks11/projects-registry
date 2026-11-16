@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/FEASTorg/KNEEAD
+  url: https://github.com/feastorg/KNEEAD
 links:
-  issues: https://github.com/FEASTorg/KNEEAD/issues
+  issues: https://github.com/feastorg/KNEEAD/issues
   docs: https://feastorg.github.io/
 tags: []
 notes: Knowledge for Nativagting Electrical & Electronic Architecture and Design (KNEEAD).

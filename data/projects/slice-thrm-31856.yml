@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/FEASTorg/Slice_THRM_31856
+  url: https://github.com/feastorg/Slice_THRM_31856
 links:
-  issues: https://github.com/FEASTorg/Slice_THRM_31856/issues
+  issues: https://github.com/feastorg/Slice_THRM_31856/issues
   docs: https://feastorg.github.io/Slice_THRM_31856/
 tags: []
 notes: Thermocouple Reader Slice for BREAD using MAX31856 IC.

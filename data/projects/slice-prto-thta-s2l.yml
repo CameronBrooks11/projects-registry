@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/FEASTorg/Slice_PRTO_THTA_S2L
+  url: https://github.com/feastorg/Slice_PRTO_THTA_S2L
 links:
-  issues: https://github.com/FEASTorg/Slice_PRTO_THTA_S2L/issues
+  issues: https://github.com/feastorg/Slice_PRTO_THTA_S2L/issues
   docs: https://feastorg.github.io/Slice_PRTO_THTA_S2L/
 tags: []
 notes: Prototyping Slice for Rapidly Creating BREAD Devices.
