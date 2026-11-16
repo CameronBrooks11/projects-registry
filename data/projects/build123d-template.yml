@@ -12,7 +12,8 @@ repos:
   url: https://github.com/CameronBrooks11/build123d-template
 links:
   issues: https://github.com/CameronBrooks11/build123d-template/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/build123d-template/
 tags: []
-notes: Cookiecutter template to quickly bootstrap build123d CAD projects with modern
-  Python packaging, CI workflows, and boilerplate code.
+notes: Cookiecutter template for build123d CAD projects, with a parametric part, STL
+  and STEP export, and CI that builds the parts and releases them on each tag.
+  MIT.
