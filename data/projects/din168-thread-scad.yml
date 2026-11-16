@@ -12,6 +12,8 @@ repos:
   url: https://github.com/CameronBrooks11/din168-thread-scad
 links:
   issues: https://github.com/CameronBrooks11/din168-thread-scad/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/din168-thread-scad/
 tags: []
-notes: DIN168 standard threads in OpenSCAD. Used in GL-xx series laboratory glassware.
+notes: DIN 168 round threads for laboratory glassware in OpenSCAD, GL8 to GL125 and
+  GLS 80, with the size table checked against DIN 168-1, the thread and a screw cap.
+  v0.1.0 released; MIT.

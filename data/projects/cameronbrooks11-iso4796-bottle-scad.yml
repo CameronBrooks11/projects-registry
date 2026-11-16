@@ -13,7 +13,8 @@ repos:
   url: https://github.com/CameronBrooks11/iso4796-bottle-scad
 links:
   issues: https://github.com/CameronBrooks11/iso4796-bottle-scad/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/iso4796-bottle-scad/
 tags: []
 notes: ISO 4796-1 screw-neck laboratory bottles (DURAN/KIMAX-style GL bottles) in
-  OpenSCAD, 25 mL to 20 L, with optional DIN 168 threads.
+  OpenSCAD, 25 mL to 20 L, with DURAN and KIMAX rows, capacities, and optional DIN 168
+  threads from din168-thread-scad. v0.1.0 released; MIT.
