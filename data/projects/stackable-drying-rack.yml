@@ -1,9 +1,10 @@
-id: cameronbrooks11-stackable-drying-rack
+id: stackable-drying-rack
 name: stackable-drying-rack
 type: system
 implementation:
 - software
-artifact: []
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
@@ -12,7 +13,7 @@ repos:
   url: https://github.com/CameronBrooks11/stackable-drying-rack
 links:
   issues: https://github.com/CameronBrooks11/stackable-drying-rack/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/stackable-drying-rack/
 tags: []
-notes: Parametric, modular drying rack system with stackable units for customizable
-  airflow, capacity, and footprint.
+notes: A modular drying rack in OpenSCAD, hexagonal basins that dovetail into trays and
+  stack on rods. MIT.
