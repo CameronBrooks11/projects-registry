@@ -15,9 +15,10 @@ repos:
     url: https://github.com/CameronBrooks11/tangent-lines
 links:
   issues: https://github.com/CameronBrooks11/tangent-lines/issues
+  docs: https://cameronbrooks11.github.io/tangent-lines/
 tags:
   - OpenSCAD
   - geometry
   - circle
   - CAD
-notes: OpenSCAD script to calculate and draw tangent lines to a circle or between circles; useful for parametric CAD geometry and design work‐flow.
+notes: OpenSCAD functions for the tangent lines, intersection points and touch points of circles, with a tutorial on the math, from Stone Age Sculptor's Printables tutorial. CC0.
