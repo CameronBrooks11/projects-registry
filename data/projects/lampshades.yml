@@ -1,0 +1,19 @@
+id: lampshades
+name: lampshades
+type: system
+implementation:
+- software
+artifact:
+- design
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/lampshades
+links:
+  issues: https://github.com/CameronBrooks11/lampshades/issues
+  docs: https://cameronbrooks11.github.io/lampshades/
+tags: []
+notes: 3D-printable lampshades in OpenSCAD for vase-mode printing, collected from Matthew
+  Seabright and two other designers, each under their own licence.
