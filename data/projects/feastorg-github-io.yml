@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/FEASTorg/FEASTorg.github.io
+  url: https://github.com/feastorg/feastorg.github.io
 links:
-  issues: https://github.com/FEASTorg/FEASTorg.github.io/issues
+  issues: https://github.com/feastorg/feastorg.github.io/issues
   docs: https://feastorg.github.io/
 tags: []
 notes: Our main organization site to rule them all!

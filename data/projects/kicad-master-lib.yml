@@ -9,9 +9,10 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/FEASTorg/KiCad-Master-Lib
+  url: https://github.com/feastorg/KiCad-Master-Lib
 links:
-  issues: https://github.com/FEASTorg/KiCad-Master-Lib/issues
+  issues: https://github.com/feastorg/KiCad-Master-Lib/issues
   docs: https://feastorg.github.io/kicad-master-lib/
 tags: []
-notes: The main KiCad library for symbols and footprints for FEASTorg.
+notes: Our central library for symbols, footprints, 3D models, and design blocks in
+  KiCad.

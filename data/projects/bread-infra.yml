@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/FEASTorg/bread-infra
+  url: https://github.com/feastorg/bread-infra
 links:
-  issues: https://github.com/FEASTorg/bread-infra/issues
+  issues: https://github.com/feastorg/bread-infra/issues
   docs: ''
 tags: []
-notes: ''
+notes: Reusable workflow infrastructure for BREAD hardware repositories.

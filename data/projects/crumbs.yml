@@ -9,10 +9,10 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/FEASTorg/CRUMBS
+  url: https://github.com/feastorg/CRUMBS
 links:
-  issues: https://github.com/FEASTorg/CRUMBS/issues
+  issues: https://github.com/feastorg/CRUMBS/issues
   docs: https://feastorg.github.io/crumbs/
 tags: []
-notes: Communications Router and Unified Message Broker System (CRUMBS) supports the
-  SPREAD firmware for BREAD.
+notes: CRUMBS is a small, portable C-based protocol for controller/peripheral I2C
+  messaging.

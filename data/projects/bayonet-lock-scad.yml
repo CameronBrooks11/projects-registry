@@ -1,5 +1,5 @@
 id: bayonet-lock-scad
-name: Bayonet-Lock-SCAD
+name: bayonet-lock-scad
 type: system
 implementation:
 - software
@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/CameronBrooks11/Bayonet-Lock-SCAD
+  url: https://github.com/CameronBrooks11/bayonet-lock-scad
 links:
-  issues: https://github.com/CameronBrooks11/Bayonet-Lock-SCAD/issues
+  issues: https://github.com/CameronBrooks11/bayonet-lock-scad/issues
   docs: ''
 tags: []
 notes: ''
