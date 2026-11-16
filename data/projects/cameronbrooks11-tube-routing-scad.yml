@@ -12,6 +12,6 @@ repos:
   url: https://github.com/CameronBrooks11/tube-routing-scad
 links:
   issues: https://github.com/CameronBrooks11/tube-routing-scad/issues
-  docs: https://cameronbrooks11.github.io/uniTube/
+  docs: https://cameronbrooks11.github.io/tube-routing-scad/
 tags: []
 notes: The Universal Tube Library for OpenSCAD.

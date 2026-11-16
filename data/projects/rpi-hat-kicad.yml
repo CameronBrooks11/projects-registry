@@ -1,9 +1,10 @@
-id: cameronbrooks11-rpi-hat-kicad
+id: rpi-hat-kicad
 name: rpi-hat-kicad
-type: system
+type: component
 implementation:
-- software
-artifact: []
+- hardware
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
@@ -14,5 +15,5 @@ links:
   issues: https://github.com/CameronBrooks11/rpi-hat-kicad/issues
   docs: https://cameronbrooks11.github.io/rpi-hat-kicad/
 tags: []
-notes: 'KiCad 10 project templates for a Raspberry Pi HAT: through-hole and SMD GPIO
-  connector variants.'
+notes: KiCad 10 templates for a Raspberry Pi HAT+, through-hole and SMD connector
+  variants, with the ID EEPROM placed and routed.
