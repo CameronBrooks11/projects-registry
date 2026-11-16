@@ -1,0 +1,20 @@
+id: tiny-house-scad
+name: tiny-house-scad
+type: system
+implementation:
+  - software
+artifact:
+  - design
+target:
+  - pc
+maturity: prototype
+status: active
+repos:
+  - host: github
+    url: https://github.com/CameronBrooks11/tiny-house-scad
+links:
+  issues: https://github.com/CameronBrooks11/tiny-house-scad/issues
+tags:
+  - OpenSCAD
+  - parametric
+notes: Parametric tiny house frame in OpenSCAD, "The Tiny"; floor, stud walls and gable roof from any size, with a lumber cut list.
