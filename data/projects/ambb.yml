@@ -1,9 +1,10 @@
-id: uwo-fast-ambb
+id: ambb
 name: ambb
-type: system
+type: component
 implementation:
-- software
-artifact: []
+- hardware
+artifact:
+- design
 target: []
 maturity: prototype
 status: active
@@ -14,4 +15,5 @@ links:
   issues: https://github.com/uwo-fast/ambb/issues
   docs: ''
 tags: []
-notes: Additive Manufacture Breakout Board
+notes: A 3D-printed, solderless adapter that plugs an 8-SOIC chip into a breadboard
+  like a DIP part.
