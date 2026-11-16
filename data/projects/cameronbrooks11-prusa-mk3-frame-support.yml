@@ -13,7 +13,7 @@ repos:
   url: https://github.com/CameronBrooks11/prusa-mk3-frame-support
 links:
   issues: https://github.com/CameronBrooks11/prusa-mk3-frame-support/issues
-  docs: ''
+  docs: https://cameronbrooks11.github.io/prusa-mk3-frame-support/
 tags: []
 notes: A printable version of the Prusa MK3(S+) frame support...in case you lose yours
   like I did.
