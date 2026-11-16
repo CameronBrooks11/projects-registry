@@ -1,5 +1,5 @@
-id: openagris3d
-name: OpenAgriS3D
+id: farm-tools-scad
+name: farm-tools-scad
 type: system
 implementation:
 - software
@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/uwo-fast/OpenAgriS3D
+  url: https://github.com/uwo-fast/farm-tools-scad
 links:
-  issues: https://github.com/uwo-fast/OpenAgriS3D/issues
+  issues: https://github.com/uwo-fast/farm-tools-scad/issues
   docs: ''
 tags: []
 notes: A collection of parametric designs for agricultural applications to enable
