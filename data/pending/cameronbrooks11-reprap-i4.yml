@@ -1,0 +1,18 @@
+id: cameronbrooks11-reprap-i4
+name: reprap-i4
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/reprap-i4
+links:
+  issues: https://github.com/CameronBrooks11/reprap-i4/issues
+  docs: ''
+tags: []
+notes: 'reprap-i4: an open, parametric continuation of the i3 MK3S printer design.
+  Unaffiliated with Prusa Research.'
