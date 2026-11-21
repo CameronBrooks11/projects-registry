@@ -10,10 +10,10 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/CameronBrooks11/parametric-calibration-objects
+  url: https://github.com/integrumsys/parametric-calibration-objects
 links:
-  issues: https://github.com/CameronBrooks11/parametric-calibration-objects/issues
-  docs: https://cameronbrooks11.github.io/parametric-calibration-objects/
+  issues: https://github.com/integrumsys/parametric-calibration-objects/issues
+  docs: https://integrumsys.github.io/parametric-calibration-objects/
 tags: []
 notes: A library of parametric calibration objects in OpenSCAD for calibrating and
   benchmarking a 3D printer. AGPL-3.0.
