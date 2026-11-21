@@ -9,9 +9,9 @@ maturity: prototype
 status: active
 repos:
 - host: github
-  url: https://github.com/CameronBrooks11/prusaslicer-first-layer-flow
+  url: https://github.com/integrumsys/prusaslicer-first-layer-flow
 links:
-  issues: https://github.com/CameronBrooks11/prusaslicer-first-layer-flow/issues
+  issues: https://github.com/integrumsys/prusaslicer-first-layer-flow/issues
   docs: ''
 tags: []
 notes: Adds a configurable first-layer-only extrusion multiplier using custom parameters
