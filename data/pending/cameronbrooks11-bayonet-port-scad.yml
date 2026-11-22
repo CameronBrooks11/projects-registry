@@ -1,0 +1,18 @@
+id: cameronbrooks11-bayonet-port-scad
+name: bayonet-port-scad
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/bayonet-port-scad
+links:
+  issues: https://github.com/CameronBrooks11/bayonet-port-scad/issues
+  docs: ''
+tags: []
+notes: 'OpenSCAD bayonet ports for lab vessels: o-ring glands, probe collets and NPT
+  threads, built on bayonet-lock-scad'
