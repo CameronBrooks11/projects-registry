@@ -1,0 +1,17 @@
+id: uwo-fast-column-bioreactor
+name: column-bioreactor
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/uwo-fast/column-bioreactor
+links:
+  issues: https://github.com/uwo-fast/column-bioreactor/issues
+  docs: ''
+tags: []
+notes: An acrylic column bioreactor, its lid and ports built on bayonet-port-scad
