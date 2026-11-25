@@ -1,0 +1,18 @@
+id: cameronbrooks11-botleneck
+name: botleneck
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/CameronBrooks11/botleneck
+links:
+  issues: https://github.com/CameronBrooks11/botleneck/issues
+  docs: ''
+tags: []
+notes: Beep bop boop, I talk to you you talk to me this extension bridges chatbots
+  across websites because why not.
