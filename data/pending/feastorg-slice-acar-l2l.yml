@@ -1,0 +1,18 @@
+id: feastorg-slice-acar-l2l
+name: Slice_ACAR_L2L
+type: system
+implementation:
+- software
+artifact: []
+target: []
+maturity: prototype
+status: active
+repos:
+- host: github
+  url: https://github.com/feastorg/Slice_ACAR_L2L
+links:
+  issues: https://github.com/feastorg/Slice_ACAR_L2L/issues
+  docs: ''
+tags: []
+notes: Two-channel Atlas EZO carrier slice for BREAD, L format, 2 layers (isolated
+  carriers, SMA behind the front panel)
